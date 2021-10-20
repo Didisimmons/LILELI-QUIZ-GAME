@@ -73,3 +73,103 @@
     padding: 10px;
 
 }
+
+/* jumbotron */
+
+.jumbotron{
+    background-color:transparent;
+}
+
+.header-text{
+    letter-spacing: 2rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #845EC2;
+    font-size: 5rem;
+    padding: 2rem;
+
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+}
+
+@keyframes stretch{
+    from{
+      transform: scale(0.6);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+
+.header-container{
+    width:100%;
+    background: url(../images/hero-image.jpg) no-repeat center center / cover fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.tag-line{
+    color: #B39CD0;
+    line-height: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+    margin-bottom: 0 !important;
+    font-size: 1.5rem;
+
+    
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+}
+
+.tag-line-text{
+    color:#B39CD0;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+
+    animation-name:hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+/* about us page */
+
+.center-about-heading{
+    text-align: center;
+}
+
+.about-us-text{
+    font-family: "oswald",sans-serif;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    color:#845EC2;
+    padding:30px;
+
+}
+
+.about-us-header {
+    color:#00C9A7;
+    letter-spacing: 1rem;
+    line-height: 1rem;
+    padding:30px 0 25px 0;
+    margin-top: 30px
+}

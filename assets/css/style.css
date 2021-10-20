@@ -416,10 +416,6 @@
 
 .quiz-full-container{
     padding: 3rem;
-    display: flex;
-    justify-content: center;
-    margin:0 auto ;
-    padding: 3rem;
     background-color:#FBEAFF; 
 }
 

@@ -617,6 +617,43 @@
     }
 
 }
+
+@media only screen and (max-width:576px){
+    .list-inline-item a{
+        font-size: 14px ;
+    }
+
+    .about-us-text{
+        font-size:1rem;
+    }
+
+    .about-us-header{
+        padding: 20px 0 20px 0;
+    }
+
+    .center-about-heading h2{
+        font-size: 1.5rem;
+    }
+
+    .video-content{
+        width: 320px;
+    }
+
+    #logo{
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+    .quiz-text{
+        font-size: 0.9rem;
+    }
+
+    .quiz-text button a:hover{
+        padding: 5px;
+    }
+}
+
+
 @media only screen and (max-width:320px){
     .list-inline-item a{
         font-size: 14px ;

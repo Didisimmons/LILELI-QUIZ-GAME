@@ -173,3 +173,100 @@
     padding:30px 0 25px 0;
     margin-top: 30px
 }
+/*video */
+.video-container{
+    padding: 30px;
+}
+
+.video-content-text-container{
+    text-align: center;
+    margin:10px;
+}
+
+.video-content-text{
+    color:#845EC2;
+    font-family: "oswald",sans-serif;
+    letter-spacing: 3px;
+    padding:30px 30px 10px 30px;
+}
+
+.general-btn{
+    color:white;
+    background-color: #845EC2;
+    border-radius: 50px;
+}
+
+.general-btn:hover{
+    cursor:pointer;
+    box-shadow:0 0 1rem 0 rgba(197, 122, 231, 0.6);
+    color:white;
+    padding: 20px;
+}
+
+.video-content{
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom:20px; 
+}
+
+.banner-container{
+    width:100%;
+    background: url(../images/consent.jpeg) no-repeat center center / cover fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:20px ;
+}
+
+/* Our motto */
+
+.what-we-do{
+    font-family: "Oswald",sans-serif;
+    line-height: 3rem;
+    letter-spacing: 3px;
+    color:#845EC2;
+    padding:30px;
+    text-align: center;
+}
+
+
+/*Products */
+
+.product-header{
+    color:#00C9A7;
+    letter-spacing: 1rem;
+    line-height: 1rem;
+    padding:30px 0 25px 0;
+    margin-top: 30px
+}
+
+.products{
+    padding-top: 2rem;
+}
+
+.card{
+    border:0;
+    width: 18rem;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+
+.card-body{
+    color:#00C9A7;
+    letter-spacing: 3px;
+}
+
+
+.card-body-container div{ 
+    margin:0 auto 1em;
+}

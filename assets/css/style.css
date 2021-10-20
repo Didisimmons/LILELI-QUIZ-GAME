@@ -391,7 +391,7 @@
 
 .buttons{
     color:white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-radius: 10px;
     padding:2rem;
     width:50%;
@@ -502,7 +502,7 @@
 }
 
 #btn-control{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width:1024px){
@@ -690,5 +690,12 @@
     .start-btn{
         margin:1rem;
     }
+
+
+    #btn-control{
+        font-size: 1.5rem;
+    }
+
+    
 
 }

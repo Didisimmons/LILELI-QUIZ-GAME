@@ -60,7 +60,7 @@
     
 }
 
-.navBar  a{
+.navBar a{
     color:#845EC2;
     text-decoration:none ;
 
@@ -71,6 +71,7 @@
     box-shadow:0 0.2rem 1.2rem 0 rgba(197, 122, 231, 0.6);
     color: #845EC2;
     padding: 10px;
+    border-radius: 4px;
 
 }
 
@@ -349,3 +350,51 @@
     text-transform: uppercase;
 }
 
+@media only screen and (max-width:1024px){
+    #logo{
+        padding:1rem;
+    }
+    
+    .center-about-heading h2{
+        font-size: 3rem;
+    }
+    
+    .video-content{
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width:812px){
+
+    .btn-nav{
+        font-size: 1rem;
+    
+    }
+    
+    .list-inline-item a{
+        font-size: 17px ;
+    }
+    
+    #nav{
+        padding: 1rem 0;
+        text-align:center;
+    }
+    
+    .social-links a i {
+        margin-left: 10px;
+    }
+    
+    .social-media{
+        padding-top:1rem;
+    }
+    
+        .footer-causes{
+        text-align: center;
+    }
+    
+    .center-about-heading h2{
+        font-size: 1.5rem;
+    }
+
+}

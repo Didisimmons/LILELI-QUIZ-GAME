@@ -484,6 +484,31 @@
     width:90%;
 }
 
+.start-btn {
+    text-align: center;
+    margin:3rem;
+}
+
+.refer-back{
+    text-align:center;
+    letter-spacing: 3px;
+    
+}
+
+.refer-back a{
+    color:#00C9A7;
+}
+
+.refer-back a:hover{
+    text-decoration: none;
+    box-shadow:0 0.2rem 1.2rem 0 rgba(197, 122, 231, 0.6);
+    color: #845EC2;
+}
+
+#btn-control{
+    font-size: 1rem;
+}
+
 @media only screen and (max-width:1024px){
     #logo{
         padding:1rem;
@@ -582,6 +607,15 @@
         font-size: 1.2rem;
     }
 
+    .questions-bar{
+        font-size: 1.2rem;
+        
+    }
+
+    .buttons{
+        padding:1rem;
+    }
+
 }
 @media only screen and (max-width:320px){
     .list-inline-item a{
@@ -606,5 +640,22 @@
     }
     .card{
         width: 16rem;
-}
+    }
+
+    .age{
+        font-size: 2rem;
+    }
+    
+    .question-text{
+        font-size:1.5rem;
+    }
+
+    .options {
+        font-size: 1rem;
+    }
+
+    .start-btn{
+        margin:1rem;
+    }
+
 }

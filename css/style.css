@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap|family=Oswald:100,200,300,400,500,600,700');
+
+:root{
+    background-color:#FBEAFF;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Bebas Neue" , cursive;
+}
+
+
+/*special paddings */
+
+.separator{
+    width:70px;
+    border:2px solid #845EC2;
+    margin:auto;
+}
+
+
+/* header  */
+.nav-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-name:hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+/* animation effect from previous project FLY BODY */
+@keyframes hero-zoom{
+    from{
+      transform: scale(0.5);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+
+#nav{
+    padding:3rem;
+}
+
+#logo{
+    width:15%;
+    padding: 1rem;
+}
+
+.btn-nav{
+    font-size:1.3rem;
+    text-align: center;
+    padding: 0px 20px;
+    
+}
+
+.navBar  a{
+    color:#845EC2;
+    text-decoration:none ;
+
+}
+
+.btn-nav:hover{
+    cursor:pointer;
+    box-shadow:0 0.2rem 1.2rem 0 rgba(197, 122, 231, 0.6);
+    color: #845EC2;
+    padding: 10px;
+
+}

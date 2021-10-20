@@ -272,192 +272,80 @@
 }
 
 
+/*Quiz */
 
-@media only screen and (max-width:1024px){
-#logo{
-    padding:1rem;
-}
-
-.center-about-heading h2{
-    font-size: 3rem;
-}
-
-.video-content{
-    width: 600px;
-}
-
-}
-
-@media only screen and (max-width:812px){
-
-.btn-nav{
-    font-size: 1rem;
-
-}
-
-.list-inline-item a{
-    font-size: 17px ;
-}
-
-#nav{
-    padding: 1rem 0;
-    text-align:center;
-}
-
-.social-links a i {
-    margin-left: 10px;
-}
-
-.social-media{
-    padding-top:1rem;
-}
-
-    .footer-causes{
+.quiz-text{
+    color:#845EC2;
     text-align: center;
+    letter-spacing: 3px;
+    padding: 3px;
+    line-height: 3rem;
 }
 
-.center-about-heading h2{
-    font-size: 1.5rem;
-}
+.quiz-container{
+    padding: 50px;
     
-.age {
-    font-size: 2.2rem;
-
-}
-}
-
-
-
-@media only screen and (max-width:768px){
-    
-#logo{
-    margin-left: auto!important;
-    margin-right: auto!important;
-    width: 35%;
-}
-
-.list-inline-item a{
-     margin-left: 10px;
-}
-
-.header-text{
-    font-size:2rem;
-    padding: 1rem;
-}
-
-.center-about-heading h2{
-    font-size: 2rem;
-}
-
-.tag-line{
-    font-size:1rem;
-}
-
-.video-content{
-    width: 400px;
-}
-
-.card{
-    width: 20rem;
-}
-
-.quiz-picture{
-    padding-top: 2rem;
-}
-
-.questions-bar{
-    font-size: 1.2rem;
-        
-}
-
-.buttons{
-    padding:1rem;
 }
 
 .btn-quiz{
-    font-size: 1.2rem;
-s}
-
-
-}
-
-@media only screen and (max-width:576px){
-
-.list-inline-item a{
-    font-size: 14px ;
-    }
-
-.about-us-text{
-    font-size:1rem;
-}
-
-.about-us-header{
-    padding: 20px 0 20px 0;
-}
-
-.center-about-heading h2{
+    padding:5px;
+    color: white;
+    background-color: #00C9A7;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    border: #00C9A7;
     font-size: 1.5rem;
 }
 
-.video-content{
-    width: 320px;
-}
+.btn-quiz a{
+    text-decoration: none;
+    color:white;
 
-#logo{
-    margin-left: auto!important;
-    margin-right: auto!important;
 }
-
-.quiz-text{
-    font-size: 0.9rem;
-}
-
 .quiz-text button a:hover{
-    padding: 5px;
+    cursor:pointer;
+    box-shadow:0 0.2rem 1.5rem 0 rgba(16, 216, 106, 0.6);
+    color:white;
+    padding: 15px;
 }
 
+/*footer */
+
+.social-links a{
+    font-size: 20px ;
 }
 
-@media only screen and (max-width:320px){
-.list-inline-item a{
-    font-size: 14px ;
+.social-links a i {
+    margin-left: 20px;
+    color: #00C9A7;
+    transition:all 0.35s ease-in ;
+     -webkit-transition:all 0.35s ease-in;
+     -moz-transition:all 0.35s ease-in;
+     -o-transition:all 0.35s ease-in;
 }
 
-.center-about-heading h2{
-    font-size: 1.5rem;
+.footer-wrapper{
+    margin-top: 15px;
 }
 
-.about-us-text{
-    font-size:0.9rem;
+.footer-causes{
+    text-align: right;
+    font-size: 19px ;
+}
+.footer-causes .list-inline-item a{
+    margin-right: 20px;
+    color: #00C9A7;
+    transition:all 0.35s ease-in ;
+     -webkit-transition:all 0.35s ease-in;
+     -moz-transition:all 0.35s ease-in;
+     -o-transition:all 0.35s ease-in;
 }
 
-.video-content{
-    width: 250px;
+.footer-text{
+    font-family:"Oswald", sans-serif;
+    font-size: 14px;
+    color: #00C9A7;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.read-more .btn {
-    font-size:0.9rem;
-    
-}
-    
-.card{
-    width: 16rem;
-    }
-    
-.age{
-    font-size: 2rem;
-    }
-
-.options {
-    font-size: 1rem;
-}
-
-.start-btn{
-    margin:1rem;
-}
-
-.question-text{
-    font-size:1.5rem;
-}
-
-}

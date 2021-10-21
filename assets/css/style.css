@@ -191,12 +191,20 @@
     padding:30px 30px 10px 30px;
 }
 
+.video-content-text{
+    font-size: 1.5rem;
+}
+
 .general-btn{
     color:white;
     background-color: #845EC2;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
+.btn{
+    font-size:1.2rem ;
+    padding:0.8rem;
+}
 .general-btn:hover{
     cursor:pointer;
     box-shadow:0 0 1rem 0 rgba(197, 122, 231, 0.6);
@@ -220,6 +228,7 @@
     background-size: cover;
     padding:20px ;
 }
+
 
 /* Our motto */
 
@@ -298,12 +307,12 @@
     font-size: 1.5rem;
 }
 
-.btn-quiz a{
+.quiz-text a{
     text-decoration: none;
     color:white;
 
 }
-.quiz-text button a:hover{
+.quiz-text a:hover{
     cursor:pointer;
     box-shadow:0 0.2rem 1.5rem 0 rgba(16, 216, 106, 0.6);
     color:white;
@@ -535,6 +544,11 @@
         padding: 1rem 0;
         text-align:center;
     }
+
+    .btn{
+        font-size:1rem ;
+        padding:0.5rem;
+    }
     
     .social-links a i {
         margin-left: 10px;
@@ -610,6 +624,10 @@
 
     .buttons{
         padding:1rem;
+    }
+
+    .video-content-text h3{
+        font-size: 1.1rem;
     }
 
 }

@@ -265,7 +265,6 @@
 
 .card{
     border:0;
-    width: 18rem;
 }
 
 .card-title{
@@ -729,9 +728,6 @@
     .read-more .btn {
         font-size:0.9rem;
         
-    }
-    .card{
-        width: 16rem;
     }
 
     .age{

@@ -111,7 +111,7 @@
 
 .header-container{
     width:100%;
-    background: url(../images/hero-image.jpg) no-repeat center center / cover fixed;  
+    background: url(../images/hero-image-cut.jpeg) no-repeat center center / cover fixed;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -235,7 +235,7 @@
 
 /* Our motto */
 
-.what-we-do{
+.reviews{
     font-family: "Oswald",sans-serif;
     line-height: 3rem;
     letter-spacing: 3px;
@@ -529,7 +529,15 @@
     .video-content{
         width: 600px;
     }
+
+    .header-text {
+        font-size: 2.3rem;
+        padding: 1.2rem;
+    }
     
+    .tag-line{
+        font-size:1.2rem;
+    }
 }
 
 @media only screen and (max-width:812px){
@@ -602,10 +610,6 @@
 
     .video-content{
         width: 400px;
-    }
-
-    .card{
-        width: 20rem;
     }
 
     .quiz-picture{

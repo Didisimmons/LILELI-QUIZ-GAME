@@ -69,6 +69,9 @@
     color: #00C9A7;
 }
 
+#nav{
+    padding-right: 10px;
+}
 .btn-nav:hover{
     cursor:pointer;
     box-shadow:0 0.2rem 1.2rem 0 rgba(197, 122, 231, 0.6);
@@ -199,11 +202,13 @@
     font-family: "roboto",sans-serif;
     letter-spacing: 3px;
     padding:30px 30px 10px 30px;
+
+}
+.video-content-text h3{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
 }
 
-.video-content-text{
-    font-size: 1.5rem;
-}
 
 .general-btn{
     color:white;
@@ -213,8 +218,9 @@
 
 .btn{
     font-size:1.2rem ;
-    padding:0.8rem;
+    padding:9px;
 }
+
 .general-btn:hover{
     cursor:pointer;
     box-shadow:0 0 1rem 0 rgba(197, 122, 231, 0.6);
@@ -239,14 +245,14 @@
 }
 
 .read-more{
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 /* Our motto */
 
 .reviews{
     line-height: 3rem;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color:#845EC2;
     padding:30px;
     text-align: center;
@@ -286,7 +292,7 @@
 
 .card-body{
     color:#00C9A7;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 
@@ -576,7 +582,7 @@
 
 
     .btn{
-        font-size:1rem ;
+        font-size:0.8rem ;
         padding:0.5rem;
     }
     

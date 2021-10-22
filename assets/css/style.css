@@ -248,14 +248,44 @@
     letter-spacing: 1px;
 }
 
-/* Our motto */
+/* stories */
 
 .reviews{
     line-height: 3rem;
     letter-spacing: 1px;
     color:#845EC2;
-    padding:30px;
+    padding:20px;
     text-align: center;
+}
+
+.review-tag-line{
+    letter-spacing: 2px;
+}
+
+.stories{
+    color: #00C9A7;
+    padding: 20px 0;
+
+}
+
+.blockquote-footer{
+    padding-top: 30px;
+    color:#00C9A7;
+    font-weight: bold;
+}
+
+
+.carousel-indicators {
+    bottom:-40px;
+}
+
+.carousel-indicators li.active{
+    background-color: #845EC2;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    margin-top:50px;
+    color:#845EC2;
 }
 
 
@@ -287,6 +317,11 @@
 
 .lowercase{
     text-transform: lowercase;
+}
+
+
+.card-text{
+    line-height: 2rem;
 }
 
 
@@ -643,6 +678,16 @@
         width: 400px;
     }
 
+    .review-tag-line h3{
+        font-size:1.3rem;
+    }
+
+
+    .blockquote p {
+        font-size: 1rem;
+    }
+    
+
 
     .btn-nav{
         font-size:1rem;
@@ -734,6 +779,18 @@
     .video-content{
         width: 250px;
     }
+
+    .reviews{
+        line-height: 2rem;
+    }
+    .review-tag-line h3{
+        font-size: 1.4rem;
+    }
+
+    .blockquote p {
+        font-size: 0.9rem;
+    }
+    
     
     .read-more .btn {
         font-size:0.9rem;

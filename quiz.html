@@ -2,60 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>LILELI QUIZ</title>
 </head>
 <body>
-        <div class="quiz-full-container">
-            <div class="question-area">
-                <div id="question-container" >
-                    <div id="header-container" class="row">
-                        <div id="question-progress" class="header-content " >
-                            <p id="question-progress-text" class="questions-bar"> Question</p>
-                            <h1 id="counter">1/10</h1>
-            
-                            <div id="questionBar" class="col-12">
-                                <div class="question-progress-icon"></div>
-                            </div>  
-                        </div>
-                        <div class="question-progress">
-                            <p class="score-text">Score:</p>
-                            <h1 class="hud-main-text" id="score"> 0</h1>
-                        </div>
+    <div class="quiz-full-container">
+        <div class="question-area">
+                <div id="question-holder" class="row">
+                    <div id="question-progress" class="header-content">
+                        <p id="question-prefix" class="questions-bar"> Question</p>
+                        <div id="questionBar">
+                            <div class="question-progress-icon"></div>
+                        </div>  
                     </div>
+                    <div class="question-progress">
+                        <p class="score-text">Score:</p>
+                        <h1 class="score-number" id="score"> 0</h1>
                     </div>
                 </div>
+
+            <div class=" question-container">
+                <div class="row">
+                    <div class="col- 12">
+                        <h2 id="main-questions" class="question-text">Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the
+                            employee. </h2>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col">
                         <div class="answer-container">
-                            <h1 id="main-questions" class="question-text">Question</h1>
-                            
                             <div class="options">
                                 <p class="answer-option"> A</p>
-                                <p class="text-answer" data-number="1"> PICK 1  </p> 
+                                <p class="text-answer" data-answer="A"> PICK 1  </p> 
                             </div>
                             <div class="options">
                                 <p class="answer-option"> B</p>
-                                <p class="text-answer" data-number="1"> PICK 2  </p> 
+                                <p class="text-answer" data-number="B"> PICK 2  </p> 
                             </div>
                             <div class="options">
                                 <p class="answer-option"> C</p>
-                                <p class="text-answer" data-number="1"> PICK 3  </p> 
+                                <p class="text-answer" data-number="C"> PICK 3  </p> 
                             </div>
                             <div class="options">
                                 <p class="answer-option"> D</p>
-                                <p class="text-answer" data-number="1"> PICK 4 </p> 
+                                <p class="text-answer" data-number="D"> PICK 4 </p> 
                             </div>
-                        </div>     
+                        </div> 
                     </div>
-                 </div>
-                 <div class="start-btn">
-                    <button id="btn-control" class="buttons btn">Start</button>
-                 </div>
-                 <p class="refer-back"><a href="index.html"> Return to the main page</a> </p>
-            </div>   
-        </div>
+                </div>
+            </div>
+            
+             <div class="start-btn">
+                <button id="btn-control" class="buttons btn">Start</button>
+             </div>
+             <p class="refer-back"><a href="index.html"> Return to the main page</a> </p>
+        </div>   
+    </div>
+        
 </body>
 </html>

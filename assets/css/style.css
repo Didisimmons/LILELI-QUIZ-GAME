@@ -478,6 +478,7 @@
     text-align:center;
     margin-bottom: 1rem;
     background: linear-gradient(158deg, rgb(198 118 231 / 67%) 0%, rgb(98 39 135 / 64%) 100%);
+    border:0;
     
 }
 
@@ -499,12 +500,13 @@
     background-color:#FBEAFF; 
 }
 
-#header-container{
-    margin:auto;
+#question-holder{
+    justify-content: space-between;
+    display: flex;
 }
 
 #questionBar{
-    width: 100%;
+    width: 7rem;
     height: 2.5rem;
     border: 0.2rem solid #00C9A7;
     border-radius: 30px;
@@ -514,16 +516,38 @@
 .questions-bar{
     text-align: center;
     color:#845EC2;
+    font-size: 1.5rem; 
+}
+
+.question-progress-icon{
+    height:100%;
+    width:0%;
+}
+
+.score-text{
+    text-align: center;
+    color:#845EC2;
     font-size: 1.5rem;
-    
+}
+
+.score-number{
+    color:#845EC2;
+    text-align: center;
 }
 
 .question-text{
     color:#845EC2;
+    letter-spacing:1px;
+    padding-top:20px;
+}
+
+.question-text h2{
+    font-size:2rem;
+
 }
 
 .answer-container{
-    padding-top:3rem;
+    padding-top:2rem;
 }
 
 .answers{
@@ -551,13 +575,14 @@
 .answer-option{
     color:white;
     margin:1rem;
-    width: 10%;
+    width: 5%;
+    text-align: center;
 }
 
 .text-answer{
     color:white;
     margin: 1rem;
-    width:90%;
+    width:95%;
 }
 
 .start-btn {
@@ -567,7 +592,7 @@
 
 .refer-back{
     text-align:center;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     
 }
 
@@ -692,13 +717,10 @@
         font-size:1.3rem;
     }
 
-
     .blockquote p {
         font-size: 1rem;
     }
     
-
-
     .btn-nav{
         font-size:1rem;
     }
@@ -711,14 +733,22 @@
         font-size: 1.2rem;
     }
 
+    .question-text{
+        font-size:1.5rem;
+    }
+    
     .questions-bar{
-        font-size: 1.2rem;
-        
+        font-size: 1.2rem;  
     }
 
-    .buttons{
-        padding:1rem;
+    .score-text{
+        font-size: 1.2rem;
     }
+
+    .score-number{
+        font-size: 1.5rem;
+    }
+    
 
     .video-content-text h3{
         font-size: 1.1rem;
@@ -816,7 +846,7 @@
     }
     
     .question-text{
-        font-size:1.5rem;
+        font-size:1rem;
     }
 
     .options {
@@ -829,7 +859,7 @@
 
 
     #btn-control{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 }

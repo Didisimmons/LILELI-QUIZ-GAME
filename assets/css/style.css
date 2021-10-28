@@ -579,21 +579,21 @@
     text-align: center;
 }
 
-.text-answer{
+.answer-text{
     color:white;
     margin: 1rem;
-    width:95%;
+    width:90%;
 }
 
 .start-btn {
     text-align: center;
-    margin:3rem;
+    margin:1rem;
+    padding-top: 20rem;
 }
 
 .refer-back{
     text-align:center;
     letter-spacing: 1px;
-    
 }
 
 .refer-back a{
@@ -606,8 +606,24 @@
     color: #845EC2;
 }
 
-#btn-control{
+#btn-start{
     font-size: 2rem;
+}
+
+#btn-restart{
+    font-size: 2rem;
+}
+
+.correct{
+    background-color:#00C9A7;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.hide{
+    display:none;
 }
 
 

@@ -11,12 +11,12 @@
 </head>
 <body>
     <div class="quiz-full-container">
-        <div class="question-area">
+        <div class="question-area hide" id="question-area-container">
                 <div id="question-holder" class="row">
                     <div id="question-progress" class="header-content">
                         <p id="question-prefix" class="questions-bar"> Question</p>
                         <div id="questionBar">
-                            <div class="question-progress-icon"></div>
+                            <div class="question-progress-icon" id="progress-icon"></div>
                         </div>  
                     </div>
                     <div class="question-progress">
@@ -28,7 +28,7 @@
             <div class=" question-container">
                 <div class="row">
                     <div class="col- 12">
-                        <h2 id="main-questions" class="question-text text-center">Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the
+                        <h2 id="main-questions" class="question-text">Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the
                             employee. </h2>
                     </div>
                 </div>
@@ -38,31 +38,31 @@
                         <div class="answer-container">
                             <div class="options">
                                 <p class="answer-option"> A</p>
-                                <p class="text-answer" data-answer="A"> PICK 1  </p> 
+                                <p class="answer-text" data-answer="A"> PICK 1  </p> 
                             </div>
                             <div class="options">
                                 <p class="answer-option"> B</p>
-                                <p class="text-answer" data-answer="B"> PICK 2  </p> 
+                                <p class="answer-text" data-answer="B"> PICK 2  </p> 
                             </div>
                             <div class="options">
                                 <p class="answer-option"> C</p>
-                                <p class="text-answer" data-answer="C"> PICK 3  </p> 
+                                <p class="answer-text" data-answer="C"> PICK 3  </p> 
                             </div>
                             <div class="options">
                                 <p class="answer-option"> D</p>
-                                <p class="text-answer" data-answer="D"> PICK 4 </p> 
+                                <p class="answer-text" data-answer="D"> PICK 4 </p> 
                             </div>
                         </div> 
                     </div>
                 </div>
             </div>
-            
-             <div class="start-btn">
-                <button id="btn-control" class="buttons btn">Start</button>
-             </div>
-             <p class="refer-back"><a href="index.html"> Return to the main page</a> </p>
-        </div>   
+        </div> 
+        <div class="start-btn">
+                <button id="btn-start" class="buttons btn">Start</button>
+                <button id="btn-restart" class="buttons btn hide">Start</button>
+        </div>
+        <p class="refer-back"><a href="index.html"> Return to the main page</a> </p>  
     </div>
-<script defer src="assets/js/script.js"></script>          
+    <script defer src="assets/js/script.js"></script>     
 </body>
 </html>

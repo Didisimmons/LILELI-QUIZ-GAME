@@ -68,6 +68,7 @@ let acceptAnswers;
 startButton.addEventListener('click' , startGame )
 restartButton .addEventListener('click', resetGame )
 
+
 function startGame () {
     startButton.classList.add('hide');
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
@@ -85,7 +86,7 @@ function newQuestion () {
 
 function showQuestion () {
     if (questionsAvailable.length === 0) {
-        displayResults()
+        displayResults();
         return 
     }
     questionCounter++;

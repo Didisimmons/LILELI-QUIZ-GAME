@@ -60,13 +60,11 @@
         <div class="button-controls">
                 <button id="btn-start" class="buttons btn">Start</button>
                 <button id="btn-restart" class="buttons btn hide">Restart</button>
-                <div class="instruction-button">
-                    <button type="button" class="buttons btn" data-toggle="modal" data-target="#play-game-rules">
-                        Instructions
-                    </button>
+                <button type="button" class="buttons btn" id="inst-btn" data-toggle="modal" data-target="#play-game-rules">Instructions</button>
                 </div>  
+                <p class="refer-back"><a href="index.html"> Return to the main page</a> </p> 
         </div>
-        <p class="refer-back"><a href="index.html"> Return to the main page</a> </p>  
+        
     </div>
 
 
@@ -85,18 +83,28 @@
                         <div id="set-rules">
                             <ol id="rules">
                                 <li>There are 15 questions avaialable for you to pick from about Abuse </li>
+                                <br>
                                 <li> Please be aware that the topics covered in the questionnaire our senstive and it is not in our intention to hurt anyone</li>
+                                <br>
                                 <li> Click Start to begin the questionnaire</li>
+                                <br>
                                 <li> You have 4 options provided to choose from. If correct the option turns green, if not red</li>
+                                <br>
                                 <li>Once you have finished all the questions, you are provided with a score and some recommendations </li>
                             </ol>
                         </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="index.html" class="btn general-btn">Return Home</a>
                     </div>
                     <small class="text-center pb-2">Please note that your you must be over 18 to participate</small>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <script defer src="assets/js/script.js"></script>     
 </body>
 </html>

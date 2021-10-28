@@ -509,8 +509,8 @@
     width: 7rem;
     height: 2.5rem;
     border: 0.2rem solid #00C9A7;
+    overflow: hidden;
     border-radius: 30px;
-    
 }
 
 .questions-bar{
@@ -521,6 +521,7 @@
 
 .question-progress-icon{
     height:100%;
+    background:#00C9A7;
     width:0%;
 }
 
@@ -585,7 +586,7 @@
     width:90%;
 }
 
-.start-btn {
+.button-controls{
     text-align: center;
     margin:1rem;
     padding-top: 20rem;
@@ -869,13 +870,9 @@
         font-size: 1rem;
     }
 
-    .start-btn{
+    .button-controls{
         margin:1rem;
     }
 
-
-    #btn-control{
-        font-size: 1.2rem;
-    }
 
 }

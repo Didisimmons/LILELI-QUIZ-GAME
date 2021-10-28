@@ -77,3 +77,27 @@ function startGame () {
     newQuestion();
 };
 
+function newQuestion () {
+    currentQuestion = questionsAvailable[0]; 
+    showQuestion();
+}
+
+function showQuestion () {
+    if (questionsAvailable.length === 0) {
+        localStorage.setItem('highScores', score) 
+        return window.location.assign('/highscores.html')
+    }
+    questionCounter++;
+    questionNumber.innerText = `Question ${questionCounter} of ${HIGHEST_QUESTIONS}` 
+    progressBar.style.width = `${(questionCounter/HIGHEST_QUESTIONS) * 100}%`
+    
+    question.innerText = currentQuestion.question;
+    answers.forEach((answer) => { 
+        let options = answer.dataset['answer']
+        answer.innerText = currentQuestion[options]
+    })
+    acceptAnswers = true ;
+    selectAnswer();
+    questionsAvailable.shift();
+
+}

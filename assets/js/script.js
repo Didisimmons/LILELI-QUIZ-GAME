@@ -66,6 +66,7 @@ const POINTS = 100;
 let acceptAnswers;
 
 startButton.addEventListener('click' , startGame )
+restartButton .addEventListener('click', resetGame )
 
 function startGame () {
     startButton.classList.add('hide');
@@ -84,8 +85,8 @@ function newQuestion () {
 
 function showQuestion () {
     if (questionsAvailable.length === 0) {
-        localStorage.setItem('highScores', score) 
-        return window.location.assign('/highscores.html')
+        displayResults()
+        return 
     }
     questionCounter++;
     questionNumber.innerText = `Question ${questionCounter} of ${HIGHEST_QUESTIONS}` 
@@ -137,13 +138,13 @@ function selectAnswer () {
     
 }
 
-incrementScore = x => {
+function incrementScore (x) {
     score +=x
     scoreField.innerText = score;
 }
 
 
-displayResults = () => {
+function displayResults () {
     if (score === 500 ){
         alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news")
     } else if (score === 300){

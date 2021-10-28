@@ -65,7 +65,7 @@ const POINTS = 100;
 
 let acceptAnswers;
 
-startButton.addEventListener('click' , startGame() )
+startButton.addEventListener('click' , startGame )
 
 function startGame () {
     startButton.classList.add('hide');
@@ -99,5 +99,59 @@ function showQuestion () {
     acceptAnswers = true ;
     selectAnswer();
     questionsAvailable.shift();
+
+}
+
+
+function selectAnswer () {
+    answers.forEach((answer) => { 
+        answer.addEventListener("click" , e => {
+            if(!acceptAnswers){
+                return;
+            }
+            acceptAnswers = false;
+    
+            const selectedAnswer = e.target;
+            const pickedAnswer = selectedAnswer.dataset['answer']
+            console.log( pickedAnswer);
+    
+            if (pickedAnswer === currentQuestion.answer){
+                applyClass = "correct";
+                selectedAnswer.parentElement.classList.add(applyClass);
+                incrementScore(POINTS)
+        
+            } else {
+                applyClass = "incorrect";   
+                selectedAnswer.parentElement.classList.add(applyClass);
+            }
+    
+    
+            setTimeout(() => {
+                selectedAnswer.parentElement.classList.remove(applyClass);
+                newQuestion();
+                acceptAnswers = true;
+            },1000);
+    
+        })
+    })
+    
+}
+
+incrementScore = x => {
+    score +=x
+    scoreField.innerText = score;
+}
+
+
+displayResults = () => {
+    if (score === 500 ){
+        alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news")
+    } else if (score === 300){
+        alert ("You need a support group to share stories and educate yourself about the abuse cultue")
+    }else if (score === 100) {
+        alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
+    }else{
+
+    }
 
 }

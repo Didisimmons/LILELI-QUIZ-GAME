@@ -66,3 +66,14 @@ const POINTS = 100;
 let acceptAnswers;
 
 startButton.addEventListener('click' , startGame() )
+
+function startGame () {
+    startButton.classList.add('hide');
+    questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
+    questionCounter = 0;
+    questionContainer.classList.remove('hide');
+    acceptAnswers = true;
+    score = 0;
+    newQuestion();
+};
+

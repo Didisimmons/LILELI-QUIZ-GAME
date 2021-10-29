@@ -61,7 +61,7 @@ const progressBar = document.getElementById("progress-icon");
 
 let score;
 let questionCounter;
-const HIGHEST_QUESTIONS = 6;
+const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;
 
 

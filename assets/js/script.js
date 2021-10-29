@@ -51,6 +51,7 @@ let questions = [
 ];
 const startButton = document.getElementById("btn-start");
 const instructionButton = document.getElementById("inst-btn");
+const homepageButton = document.getElementById("refer");
 const questionContainer = document.getElementById("question-area-container");
 const question = document.getElementById("main-questions");
 const answers = Array.from(document.getElementsByClassName("answer-text"));
@@ -72,6 +73,7 @@ function startGame () {
     startButton.classList.add('hide');
     instructionButton.classList.add('hide');
     questionContainer.classList.remove('hide');
+    homepageButton.classList.add('hide');
 
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
     questionCounter = 0;
@@ -102,7 +104,6 @@ function showQuestion () {
     acceptAnswers = true ;
     selectAnswer();
     questionsAvailable.shift();
-
 }
 
 
@@ -149,16 +150,14 @@ function incrementScore (x) {
 function displayResults () {
     if (score >= 600){
         $('#grade-seventy').modal('show');
-            resetGame ();
     } else if (score === 400){
         $('#grade-seventy').modal('show');
-        resetGame ();
     }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
         alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news");
     }
-
+   resetGame();
 }
 
 function resetGame () {
@@ -166,4 +165,10 @@ function resetGame () {
     startButton.innerText = "Play Again";
     questionContainer.classList.add('hide');
     instructionButton.classList.add('hide');
+    homepageButton.classList.remove('hide');
+    startButton.addEventListener('click' , resetState );
+}
+
+function resetState () { 
+    startGame ();
 }

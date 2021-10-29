@@ -41,11 +41,11 @@ let questions = [
     },
     {
         "question":"Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the employee.  ",
-        "A":"Sometimes ",
+        "A":"Yes ",
         "B":" Depends on the abuser",
         "C":"No",
-        "D":"Yes",
-        "answer":"D",
+        "D":"Sometimes",
+        "answer":"A",
     }
 
 ]
@@ -149,10 +149,10 @@ function incrementScore (x) {
 
 function displayResults () {
     if (score >= 600){
-        $('#play-game-rules').modal('show')
+        $('#grade-seventy').modal('show')
             resetGame ()
     } else if (score === 400){
-        $('#play-game-rules').modal('show')
+        $('#grade-seventy').modal('show')
         resetGame ()
     }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");

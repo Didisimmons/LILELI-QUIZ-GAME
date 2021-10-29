@@ -170,5 +170,8 @@ function resetGame () {
 }
 
 function resetState () { 
-    startGame ();
+    questionCounter = 0;
+    score = 0;
+    scoreField.innerText = score;
+    newQuestion ();
 }

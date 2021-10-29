@@ -50,7 +50,8 @@ let questions = [
 
 ]
 const startButton = document.getElementById("btn-start");
-const restartButton = document.getElementById("btn-restart")
+const instructionButton = document.getElementById("inst-btn")
+const homePage = document.getElementById("refer")
 const questionContainer = document.getElementById("question-area-container")
 const question = document.getElementById("main-questions");
 const answers = Array.from(document.getElementsByClassName("answer-text"));
@@ -66,27 +67,27 @@ const POINTS = 100;
 let acceptAnswers;
 
 startButton.addEventListener('click' , startGame )
-restartButton .addEventListener('click', resetGame )
 
 
 function startGame () {
     startButton.classList.add('hide');
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
     questionCounter = 0;
+    instructionButton.classList.add('hide')
     questionContainer.classList.remove('hide');
     acceptAnswers = true;
     score = 0;
-    newQuestion();
+    newQuestion()
 };
 
 function newQuestion () {
     currentQuestion = questionsAvailable[0]; 
-    showQuestion();
+    showQuestion()
 }
 
 function showQuestion () {
     if (questionsAvailable.length === 0) {
-        displayResults();
+        displayResults()
         return 
     }
     questionCounter++;
@@ -146,14 +147,12 @@ function incrementScore (x) {
 
 
 function displayResults () {
-    if (score === 500 ){
+    if (score >= 600){
         $('#play-game-rules').modal('show')
-            resetGame ();
-        
-        
-    } else if (score === 300){
+            resetGame ()
+    } else if (score === 400){
         $('#play-game-rules').modal('show')
-        resetGame ();
+        resetGame ()
     }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
@@ -164,7 +163,8 @@ function displayResults () {
 
 function resetGame () {
     startButton.classList.remove('hide');
-    startButton.innerText = "Play Again"
+    startButton.innerText = "Play Again";
+    homePage.classList.remove('hide');
     questionContainer.classList.add('hide');
-    startGame();
+    instructionButton.classList.add('hide');
 }

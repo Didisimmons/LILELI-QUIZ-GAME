@@ -610,10 +610,6 @@
     font-size: 2rem;
 }
 
-#btn-restart{
-    font-size: 2rem;
-}
-
 #inst-btn{
     font-size: 2rem;
     
@@ -740,12 +736,15 @@
         padding-top: 14rem;
     }
 
+    #btn-start{
+        width:100%;
+    }
+
     #inst-btn{
         width:100%;
         
     }
-    
-    
+     
 
 }
 
@@ -923,12 +922,8 @@
         padding-top: 10rem;
     }
 
-    #btn-start, #btn-restart{
+    #btn-start , #inst-btn {
         font-size:1.5rem;
-    }
-
-    #inst-btn{
-        font-size: 1.5rem;
     }
 
     .modal-body{

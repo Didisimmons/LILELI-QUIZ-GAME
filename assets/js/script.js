@@ -48,11 +48,10 @@ let questions = [
         "answer":"A",
     }
 
-]
+];
 const startButton = document.getElementById("btn-start");
-const instructionButton = document.getElementById("inst-btn")
-const homePage = document.getElementById("refer")
-const questionContainer = document.getElementById("question-area-container")
+const instructionButton = document.getElementById("inst-btn");
+const questionContainer = document.getElementById("question-area-container");
 const question = document.getElementById("main-questions");
 const answers = Array.from(document.getElementsByClassName("answer-text"));
 const questionNumber = document.getElementById("question-prefix");
@@ -66,40 +65,40 @@ const POINTS = 100;
 
 let acceptAnswers;
 
-startButton.addEventListener('click' , startGame )
+startButton.addEventListener('click' , startGame );
 
 
 function startGame () {
     startButton.classList.add('hide');
-    instructionButton.classList.add('hide')
+    instructionButton.classList.add('hide');
     questionContainer.classList.remove('hide');
 
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
     questionCounter = 0;
     acceptAnswers = true;
     score = 0;
-    newQuestion()
-};
+    newQuestion();
+}
 
 function newQuestion () {
     currentQuestion = questionsAvailable[0]; 
-    showQuestion()
+    showQuestion();
 }
 
 function showQuestion () {
     if (questionsAvailable.length === 0) {
-        displayResults()
-        return 
+        displayResults();
+        return ;
     }
     questionCounter++;
-    questionNumber.innerText = `Question ${questionCounter} of ${HIGHEST_QUESTIONS}` 
-    progressBar.style.width = `${(questionCounter/HIGHEST_QUESTIONS) * 100}%`
+    questionNumber.innerText = `Question ${questionCounter} of ${HIGHEST_QUESTIONS}`;
+    progressBar.style.width = `${(questionCounter/HIGHEST_QUESTIONS) * 100}%`;
     
     question.innerText = currentQuestion.question;
     answers.forEach((answer) => { 
-        let options = answer.dataset['answer']
-        answer.innerText = currentQuestion[options]
-    })
+        let options = answer.dataset.answer;
+        answer.innerText = currentQuestion[options];
+    });
     acceptAnswers = true ;
     selectAnswer();
     questionsAvailable.shift();
@@ -116,13 +115,13 @@ function selectAnswer () {
             acceptAnswers = false;
     
             const selectedAnswer = e.target;
-            const pickedAnswer = selectedAnswer.dataset['answer']
+            const pickedAnswer = selectedAnswer.dataset.answer;
             console.log( pickedAnswer);
     
             if (pickedAnswer === currentQuestion.answer){
                 applyClass = "right-answer";
                 selectedAnswer.parentElement.classList.add(applyClass);
-                incrementScore(POINTS)
+                incrementScore(POINTS);
         
             } else {
                 applyClass = "wrong-answer";   
@@ -136,28 +135,28 @@ function selectAnswer () {
                 acceptAnswers = true;
             },1000);
     
-        })
-    })
+        });
+    });
     
 }
 
 function incrementScore (x) {
-    score +=x
+    score +=x;
     scoreField.innerText = score;
 }
 
 
 function displayResults () {
     if (score >= 600){
-        $('#grade-seventy').modal('show')
-            resetGame ()
+        $('#grade-seventy').modal('show');
+            resetGame ();
     } else if (score === 400){
-        $('#grade-seventy').modal('show')
-        resetGame ()
+        $('#grade-seventy').modal('show');
+        resetGame ();
     }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
-        alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news")
+        alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news");
     }
 
 }

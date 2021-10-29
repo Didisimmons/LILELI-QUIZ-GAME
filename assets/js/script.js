@@ -147,13 +147,24 @@ function incrementScore (x) {
 
 function displayResults () {
     if (score === 500 ){
-        alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news")
+        $('#play-game-rules').modal('show')
+            resetGame ();
+        
+        
     } else if (score === 300){
-        alert ("You need a support group to share stories and educate yourself about the abuse cultue")
+        $('#play-game-rules').modal('show')
+        resetGame ();
     }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
-
+        alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news")
     }
 
+}
+
+function resetGame () {
+    startButton.classList.remove('hide');
+    startButton.innerText = "Play Again"
+    questionContainer.classList.add('hide');
+    startGame();
 }

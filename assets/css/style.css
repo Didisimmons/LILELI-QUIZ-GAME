@@ -615,11 +615,11 @@
     
 }
 
-.correct{
+.right-answer{
     background-color:#00C9A7;
 }
 
-.incorrect{
+.wrong-answer{
     background-color: red;
 }
 

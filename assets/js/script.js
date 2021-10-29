@@ -71,10 +71,11 @@ startButton.addEventListener('click' , startGame )
 
 function startGame () {
     startButton.classList.add('hide');
-    questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
-    questionCounter = 0;
     instructionButton.classList.add('hide')
     questionContainer.classList.remove('hide');
+
+    questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
+    questionCounter = 0;
     acceptAnswers = true;
     score = 0;
     newQuestion()
@@ -119,12 +120,12 @@ function selectAnswer () {
             console.log( pickedAnswer);
     
             if (pickedAnswer === currentQuestion.answer){
-                applyClass = "correct";
+                applyClass = "right-answer";
                 selectedAnswer.parentElement.classList.add(applyClass);
                 incrementScore(POINTS)
         
             } else {
-                applyClass = "incorrect";   
+                applyClass = "wrong-answer";   
                 selectedAnswer.parentElement.classList.add(applyClass);
             }
     
@@ -164,7 +165,6 @@ function displayResults () {
 function resetGame () {
     startButton.classList.remove('hide');
     startButton.innerText = "Play Again";
-    homePage.classList.remove('hide');
     questionContainer.classList.add('hide');
     instructionButton.classList.add('hide');
 }

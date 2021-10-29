@@ -61,26 +61,31 @@ const progressBar = document.getElementById("progress-icon");
 
 let score;
 let questionCounter;
-const HIGHEST_QUESTIONS = questions.length;
+const HIGHEST_QUESTIONS = 6;
 const POINTS = 100;
 
-let acceptAnswers;
 
-startButton.addEventListener('click' , startGame );
-
-
+if (window.location.pathname == "/quiz.html") {
+    startButton.addEventListener('click' , startGame );
+  }
+  
 function startGame () {
     startButton.classList.add('hide');
     instructionButton.classList.add('hide');
     questionContainer.classList.remove('hide');
     homepageButton.classList.add('hide');
+    getAvailableQuestions ();
 
-    questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
     questionCounter = 0;
     acceptAnswers = true;
     score = 0;
     newQuestion();
 }
+
+function getAvailableQuestions () {
+    questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
+}
+    
 
 function newQuestion () {
     currentQuestion = questionsAvailable[0]; 
@@ -166,12 +171,13 @@ function resetGame () {
     questionContainer.classList.add('hide');
     instructionButton.classList.add('hide');
     homepageButton.classList.remove('hide');
-    startButton.addEventListener('click' , resetState );
+    startButton.addEventListener('click' , resetState);
 }
 
 function resetState () { 
-    questionCounter = 0;
     score = 0;
+    questionCounter = 0;
     scoreField.innerText = score;
-    newQuestion ();
+    getAvailableQuestions ();
+    newQuestion();
 }

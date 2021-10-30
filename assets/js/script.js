@@ -118,7 +118,6 @@ function selectAnswer () {
             if(!acceptAnswers){
                 return;
             }
-            acceptAnswers = false;
     
             const selectedAnswer = e.target;
             const pickedAnswer = selectedAnswer.dataset.answer;

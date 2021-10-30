@@ -262,6 +262,10 @@
     letter-spacing: 2px;
 }
 
+.review{
+    font-size:1.2rem;
+}
+
 .stories{
     color: #00C9A7;
     padding: 20px 0;

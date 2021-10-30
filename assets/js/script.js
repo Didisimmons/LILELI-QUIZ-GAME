@@ -120,20 +120,12 @@ let questions = [
         "answer":"B",
     },
     {
-        "question":"Who needs to request for consent? ",
-        "A":"No I don’t, were strong ",
-        "B":"I don’t know ",
-        "C":"Yes, anybody can be a victim",
-        "D":"Yes, Only if they are unconscious ",
-        "answer":"C",
-    },
-    {
-        "question":"Do you believe men can be victims of harassment/ assault?  ",
+        "question":"Who needs to request for consent ",
         "A":"Couples in long distance relationships",
         "B":"Married Couples",
         "C":"People hooking up for the first time",
         "D":"All of the above  ",
-        "answer":"C",
+        "answer":"D",
     },
     {
         "question":"What signs could help you see if you have someone’s consent? ",
@@ -141,6 +133,30 @@ let questions = [
         "B":"All of above ",
         "C":"Tone of their voice ",
         "D":"Their Body language",
+        "answer":"B",
+    },
+    {
+        "question":"Which of the Following are considered sexual assault/ misconduct ? ",
+        "A":"Unwelcome sexual advances or requests for sexual favours",
+        "B":"Non-consensual recording of sexual activity ",
+        "C":"Distributing intimate photographs of another person",
+        "D":"All of the above are considered sexual assault/misconduct",
+        "answer":"D",
+    },
+    {
+        "question":"Sarah works as a traffic controller in a road construction crew. During breaks, her co-workers often make offensive sexual gestures, remarks and jokes which makes Sarah uncomfortable and distressed. What would you advice Sarah to do? ",
+        "A":"Report To HR immediately  ",
+        "B":"Quit job",
+        "C":"Confront the men",
+        "D":"Ignore them",
+        "answer":"A",
+    },
+    {
+        "question":"Leo  has been working as an analyst for three years at his company. At a recent work function his boss Lianne made inappropriate advances towards Leo ,which he rebuffed. What should he do? ",
+        "A":"Be a Man, she wants you  ",
+        "B":"Report her to a senior ",
+        "C":"Ignore her",
+        "D":"Quit job",
         "answer":"B",
     }
 

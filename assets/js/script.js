@@ -18,7 +18,7 @@ let questions = [
     {
         "question":"Sexual abuse is not limited to physical contact. It can occur any time that an individual is uncomfortable with another person's approaches, comments or discussions. ",
         "A":" No",
-        "B":" hell Yeah ",
+        "B":" Yes ",
         "C":" Not sure",
         "D":"That is quite extreme ",
         "answer":"B",
@@ -177,10 +177,17 @@ const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;
 
 
+/**
+ *The Event Listener should only function while the user is on the quiz.html page.
+ */
 if (window.location.pathname == "/quiz.html") {
     startButton.addEventListener('click' , startGame );
   }
-  
+
+
+/**
+ * Starts the game by hiding the instruction button, sorting all of the questions, and setting the necessay variables to their default values.
+ */ 
 function startGame () {
     startButton.classList.add('hide');
     instructionButton.classList.add('hide');
@@ -194,16 +201,28 @@ function startGame () {
     newQuestion();
 }
 
+/**
+ * shuffle the questions in order to obtain a random question from the array
+ */
 function getAvailableQuestions () {
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
 }
     
 
+/**
+ * assign the current question to the first item in the shuffled question array
+ */
 function newQuestion () {
     currentQuestion = questionsAvailable[0]; 
     showQuestion();
 }
 
+
+/**
+ * chooses the response choices accessible in quiz.html for each question and displays them under the current shuffled question
+ * When the user has done playing the game, the results are displayed.
+ * When the user is at a new question, the question counter and progressBar are updated
+ */
 function showQuestion () {
     if (questionsAvailable.length === 0) {
         displayResults();
@@ -224,6 +243,10 @@ function showQuestion () {
 }
 
 
+/**
+ * Allows the user to select only one answer; if correct/wrong, a class with a timeout is applied.
+ *  For each new question answered correctly, the user's score is increased. 
+ */
 function selectAnswer () {
     answers.forEach((answer) => { 
         answer.addEventListener("click" , e => {
@@ -257,35 +280,50 @@ function selectAnswer () {
     
 }
 
+/**
+ * increase the score by 100 points,when the user selects the correct answer, the score field is updated.
+ */
 function incrementScore (x) {
     score +=x;
     scoreField.innerText = score;
 }
 
 
+/**
+ * When the user has done answering all of the questions, the game is reset and the results are displayed in a popup.
+ */
+
 function displayResults () {
-    if (score >= 600){
+    if (score >= 1200){
         $('#grade-seventy').modal('show');
-    } else if (score === 400){
-        $('#grade-seventy').modal('show');
+    } else if (score <= 1100){
+        $('#play-game-rules').modal('show');
     }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
         alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news");
     }
-   resetGame();
+    resetState();
 }
 
-function resetGame () {
+/**
+ *Shows the Play Again button, which allows the user to reset the game.
+ */
+
+function resetState() {
     startButton.classList.remove('hide');
     startButton.innerText = "Play Again";
     questionContainer.classList.add('hide');
     instructionButton.classList.add('hide');
     homepageButton.classList.remove('hide');
-    startButton.addEventListener('click' , resetState);
+    startButton.addEventListener('click' , resetGame);
 }
 
-function resetState () { 
+/**
+ * Resets the game, updates the score field, retrieves the questions, and shuffles the questions to display in new orders. 
+*/
+
+function resetGame  () { 
     score = 0;
     questionCounter = 0;
     scoreField.innerText = score;

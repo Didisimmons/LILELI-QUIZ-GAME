@@ -18,7 +18,7 @@ let questions = [
     {
         "question":"Sexual abuse is not limited to physical contact. It can occur any time that an individual is uncomfortable with another person's approaches, comments or discussions. ",
         "A":" No",
-        "B":" hell Yeah ",
+        "B":"Yes",
         "C":" Not sure",
         "D":"That is quite extreme ",
         "answer":"B",
@@ -41,6 +41,38 @@ let questions = [
     },
     {
         "question":"Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the employee.  ",
+        "A":"Yes ",
+        "B":" Depends on the abuser",
+        "C":"No",
+        "D":"Sometimes",
+        "answer":"A",
+    },
+    {
+        "question":"Which of the Following are considered sexual assault/ misconduct ? ",
+        "A":"Unwelcome sexual advances or requests for sexual favours ",
+        "B":"Distributing intimate photographs of another person",
+        "C":"Non-consensual recording of sexual activity",
+        "D":"All of the above are considered sexual assault/misconduct ",
+        "answer":"D",
+    },
+    {
+        "question":"Sarah works as a traffic controller in a road construction crew. During breaks, her co-workers often make offensive sexual gestures, remarks and jokes which makes Sarah uncomfortable and distressed. What would you advice Sarah to do? ",
+        "A":"Ignore them ",
+        "B":"Confront the men",
+        "C":"Report To HR immediately",
+        "D":"Quit job",
+        "answer":"C",
+    },
+    {
+        "question":"Leo has been working as an analyst for three years at his company. At a recent work function his boss Lianne made inappropriate advances towards Leo ,which he rebuffed. What should he do?",
+        "A":"Report her to a senior ",
+        "B":"Be a Man, she wants you",
+        "C":"Quit job",
+        "D":"Ignore her",
+        "answer":"A",
+    },
+    {
+        "question":"Sarah works at a local café. Matthew, a regular customer, often greets Sarah by trying to give her a hug which makes her uncomfortable. Recently, Rhys’s behaviour escalated when he inappropriately pinched Sarah as she walked past the table he was sitting at.What do you think about the situation? ",
         "A":"Yes ",
         "B":" Depends on the abuser",
         "C":"No",
@@ -118,7 +150,7 @@ function selectAnswer () {
             if(!acceptAnswers){
                 return;
             }
-    
+            acceptAnswers = false;
             const selectedAnswer = e.target;
             const pickedAnswer = selectedAnswer.dataset.answer;
             console.log( pickedAnswer);
@@ -152,11 +184,11 @@ function incrementScore (x) {
 
 
 function displayResults () {
-    if (score >= 600){
+    if (score >= 700){
         $('#grade-seventy').modal('show');
-    } else if (score === 400){
+    } else if (score === 600){
         $('#grade-seventy').modal('show');
-    }else if (score === 100) {
+    }else if (score === 500) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
         alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news");

@@ -18,7 +18,7 @@ let questions = [
     {
         "question":"Sexual abuse is not limited to physical contact. It can occur any time that an individual is uncomfortable with another person's approaches, comments or discussions. ",
         "A":" No",
-        "B":"Yes",
+        "B":" hell Yeah ",
         "C":" Not sure",
         "D":"That is quite extreme ",
         "answer":"B",
@@ -45,30 +45,6 @@ let questions = [
         "B":" Depends on the abuser",
         "C":"No",
         "D":"Sometimes",
-        "answer":"A",
-    },
-    {
-        "question":"Which of the Following are considered sexual assault/ misconduct ? ",
-        "A":"Unwelcome sexual advances or requests for sexual favours ",
-        "B":"Distributing intimate photographs of another person",
-        "C":"Non-consensual recording of sexual activity",
-        "D":"All of the above are considered sexual assault/misconduct ",
-        "answer":"D",
-    },
-    {
-        "question":"Sarah works as a traffic controller in a road construction crew. During breaks, her co-workers often make offensive sexual gestures, remarks and jokes which makes Sarah uncomfortable and distressed. What would you advice Sarah to do? ",
-        "A":"Ignore them ",
-        "B":"Confront the men",
-        "C":"Report To HR immediately",
-        "D":"Quit job",
-        "answer":"C",
-    },
-    {
-        "question":"Leo has been working as an analyst for three years at his company. At a recent work function his boss Lianne made inappropriate advances towards Leo ,which he rebuffed. What should he do?",
-        "A":"Report her to a senior ",
-        "B":"Be a Man, she wants you",
-        "C":"Quit job",
-        "D":"Ignore her",
         "answer":"A",
     },
     {
@@ -120,21 +96,53 @@ let questions = [
         "answer":"D",
     },
     {
-        "question":"Do you believe men can be victims of harassment/ assault?",
-        "A":"Yes, anybody can be a victim  ",
-        "B":"No I don’t, were strong ",
-        "C":"Yes, Only if they are unconscious ",
-        "D":"I don’t know",
-        "answer":"A",
-    },
-    {
-        "question":"Do you understand what is appropriate consent is in regards to sexual matters? ",
-        "A":"No I don’t understand it at all ",
-        "B":"I think so ",
-        "C":"Maybe, im unsure",
-        "D":"Yes, I understand and respect boundaries",
+        "question":"You should ask for consent before :",
+        "A":"Having sex",
+        "B":"Holding hands ",
+        "C":"Kissing",
+        "D":"All of the above",
         "answer":"D",
     },
+    {
+        "question":"Do you believe men can be victims of harassment/ assault?  ",
+        "A":"No I don’t, were strong ",
+        "B":"I don’t know ",
+        "C":"Yes, anybody can be a victim",
+        "D":"Yes, Only if they are unconscious ",
+        "answer":"C",
+    },
+    {
+        "question":"When do you think consent needs to be requested? ",
+        "A":"Only right before sex ",
+        "B":"Before any type of physical contact ",
+        "C":"Just the first time you are physical with the person",
+        "D":"When you feel like the moment is right ",
+        "answer":"B",
+    },
+    {
+        "question":"Who needs to request for consent? ",
+        "A":"No I don’t, were strong ",
+        "B":"I don’t know ",
+        "C":"Yes, anybody can be a victim",
+        "D":"Yes, Only if they are unconscious ",
+        "answer":"C",
+    },
+    {
+        "question":"Do you believe men can be victims of harassment/ assault?  ",
+        "A":"Couples in long distance relationships",
+        "B":"Married Couples",
+        "C":"People hooking up for the first time",
+        "D":"All of the above  ",
+        "answer":"C",
+    },
+    {
+        "question":"What signs could help you see if you have someone’s consent? ",
+        "A":"Their words",
+        "B":"All of above ",
+        "C":"Tone of their voice ",
+        "D":"Their Body language",
+        "answer":"B",
+    }
 
 ];
 const startButton = document.getElementById("btn-start");
@@ -206,7 +214,7 @@ function selectAnswer () {
             if(!acceptAnswers){
                 return;
             }
-            acceptAnswers = false;
+            acceptAnswers = false ;
             const selectedAnswer = e.target;
             const pickedAnswer = selectedAnswer.dataset.answer;
             console.log( pickedAnswer);
@@ -240,11 +248,11 @@ function incrementScore (x) {
 
 
 function displayResults () {
-    if (score >= 700){
+    if (score >= 600){
         $('#grade-seventy').modal('show');
-    } else if (score === 600){
+    } else if (score === 400){
         $('#grade-seventy').modal('show');
-    }else if (score === 500) {
+    }else if (score === 100) {
         alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
     }else{
         alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news");

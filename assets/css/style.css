@@ -268,7 +268,7 @@
 
 .stories{
     color: #00C9A7;
-    padding: 20px 0;
+    padding: 20px 10px;
 
 }
 
@@ -644,6 +644,10 @@
     padding: 1rem 1rem 0 1rem;
 }
 
+.modal-body h3{
+    font-size: 1.6rem;
+}
+
 .modal-header{
     border:0;
 }
@@ -657,6 +661,18 @@
     justify-content:center;
 }
 
+.scores{
+    justify-content: center;
+}
+
+.scores-text{
+    padding-top: 10px;
+}
+
+.scores-text a{
+    color:#845EC2; 
+    font-weight: bold;
+}
 
 
 @media only screen and (max-width:1024px){
@@ -700,7 +716,7 @@
 
 
     .btn{
-        font-size:0.8rem ;
+        font-size:0.9rem ;
         padding:0.5rem;
     }
     
@@ -775,8 +791,8 @@
         width: 400px;
     }
 
-    .review-tag-line h3{
-        font-size:1.3rem;
+    .review-tag-line{
+        font-size:1.6rem;
     }
 
     .blockquote p {
@@ -796,7 +812,7 @@
     }
 
     .question-text{
-        font-size:1.5rem;
+        font-size:1.3rem;
     }
     
     .questions-bar{
@@ -828,6 +844,10 @@
         font-size:1.6rem;
     }
 
+    .answer-text{
+        font-size:1.2rem;
+
+    }
 }
 
 @media only screen and (max-width:576px){
@@ -892,7 +912,7 @@
     .reviews{
         line-height: 2rem;
     }
-    .review-tag-line h3{
+    .review-tag-line {
         font-size: 1.4rem;
     }
 
@@ -915,7 +935,7 @@
     }
     
     .question-text{
-        font-size:1rem;
+        font-size:1.2rem;
     }
 
     .options {
@@ -938,5 +958,17 @@
         font-size:1.5rem;   
     }
 
+    .scores-text{
+        font-size: 0.9rem;
+    }
 
+    .answer-option {
+        margin: 1rem 0 1rem 1rem;
+    }
+
+    .modal-body h3{
+        font-size: 1.4rem;
+    }
+    
+    
 }

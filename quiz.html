@@ -10,8 +10,11 @@
     <title>LILELI QUIZ</title>
 </head>
 <body>
+     
     <div class="quiz-full-container">
-        <div class="question-area hide" id="question-area-container">
+        <section>
+            <div class="question-area hide" id="question-area-container">
+                <!-- question header  -->
                 <div id="question-holder" class="row">
                     <div id="question-progress" class="header-content">
                         <p id="question-prefix" class="questions-bar"> Question</p>
@@ -23,10 +26,10 @@
                         <p class="score-text">Score:</p>
                         <h1 class="score-number" id="score"> 0</h1>
                     </div>
-                </div>
-                
+                </div> 
 
-            <div class=" question-container">
+             <!-- Question body  -->
+                <div class=" question-container">
                 <div class="row">
                     <div class="col- 12">
                         <h2 id="main-questions" class="question-text">Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the
@@ -56,25 +59,24 @@
                         </div> 
                     </div>
                 </div>
+                </div> 
+                <p class="refer-back pt-3"><a href="index.html" target="_blank"> Return to the main page</a> </p> 
             </div> 
-            <p class="refer-back pt-3"><a href="index.html" target="_blank"> Return to the main page</a> </p> 
-        </div> 
-        
-        <div class="button-controls">
-            <button id="btn-start" class="buttons btn">Start</button>
-            <button type="button" class="buttons btn" id="inst-btn" data-toggle="modal" data-target="#play-game-rules">Instructions</button>
-            <div class="refer-back" id="refer">
-                <a class="btn" target="_blank" href="index.html">Return back to homepage</a>
-            </div>
-            
-        </div>  
-                
-        </div>
-        
+        </section> 
+        <section>
+             <!-- control buttons  --> 
+            <div class="button-controls">
+                <button id="btn-start" class="buttons btn">Start</button>
+                <button type="button" class="buttons btn" id="inst-btn" data-toggle="modal" data-target="#play-game-rules">Instructions</button>
+                <div class="refer-back" id="refer">
+                    <a class="btn" target="_blank" href="index.html">Return back to homepage</a>
+                </div>
+            </div> 
+        </section>
+             
     </div>
 
-
-
+  <!-- modals  -->
     <div class="modal-container">
         <div class="modal show" id="play-game-rules" tabindex="-1" role="dialog" aria-labelledby="instructions-text" aria-hidden="true">
             <div class="modal-dialog">
@@ -110,23 +112,69 @@
     </div>
 
     <div class="modal-container">
-        <div class="modal show" id="grade-seventy" tabindex="-1" role="dialog" aria-labelledby="instructions-text" aria-hidden="true">
+        <div class="modal show" id="grade-seventy" tabindex="-1" role="dialog" aria-labelledby="display_results1" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content text-center">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>           
-                        </button>  
+                    <div class="modal-header scores">
+                        <h1 class="modal-title" id="display_results1">CONGRATULATIONS!! </h1>
                     </div>
                     <div class="modal-body">
-                        <h1>Congratulations!!!</h1>
+                        <h3>You scored more than 1200!</h3>
                         <div>
-                            <p>you scored more than 70%. You are fully aware of Sexual harassment and Consent. Feel free to check out this site for more  resources concerning the discussion of assault. There’s never too much information! <a href="https://www.nsvrc.org">National Sexual Violence Resource Centr</a> </p>
+                            <p class="scores-text">You have a great understanding on what it means to understand and establish sexual consent and how it should /can be given and in what circumstances.<br>
+                                In case you wish to pass on your knowledge about consent and sexual harassment here are some resources for you to check out.
+                            <a href="https://www.ifpa.ie/sites/default/files/documents/Reports/teaching_about_consent_healthy_boundaries_a_guide_for_educators.pdf" target="_blank"> Teaching Consent and Boundaries</a> </p>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <a href="index.html" class="btn general-btn" data-dismiss="modal">Close</a>
-                        <small class="text-center pt-3 pb-2">Please note that your you must be over 18 to participate</small>
+                        <button type="button" class="btn general-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container">
+        <div class="modal show" id="grade-fifty" tabindex="-1" role="dialog" aria-labelledby="display_results2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content text-center">
+                    <div class="modal-header scores">
+                        <h1 class="modal-title" id="display_results2">You Passed! </h1>
+                    </div>
+                    <div class="modal-body">
+                        <h3>You scored between 800 - 1100!</h3>
+                        <div>
+                            <p class="scores-text">Not bad, you understand some of the basics of Sexual consent and harassment but you could use some more information concerning this so that you’re aware of the different circumstances surrounding this.
+                                <br> Check this out  
+                            <a href="https://rapecrisis.org.uk/get-informed/about-sexual-violence/sexual-consent/" target="_blank"> consent & Sexual Harassment - A Discussion</a> </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn general-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container">
+        <div class="modal show" id="grade-low" tabindex="-1" role="dialog" aria-labelledby="display_results3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content text-center">
+                    <div class="modal-header scores">
+                        <h1 class="modal-title" id="display_results3">You Failed! </h1>
+                    </div>
+                    <div class="modal-body">
+                        <h3>You Scored Below 800: </h3>
+                        <div>
+                            <p class="scores-text">You could definitely use information about consent, meaning and the circumstances surrounding it. 
+                                <br>
+                                By ensuring you are aware of consent , you are aware of your own and others rights to not be sexual harassed or agree to something they do not agree to. Here is some Basic Information on Consent & Sexual Harassment.
+                            <a href="https://www.sexualwellbeing.ie/sexual-health/sexual-consent/sexual-consent-in-practice/" target="_blank"> The Basics of Consent & Sexual Harassment</a> </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn general-btn" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>

@@ -49,7 +49,7 @@ let questions = [
     },
     {
         "question":"Sarah works at a local café. Matthew, a regular customer, often greets Sarah by trying to give her a hug which makes her uncomfortable. Recently, Rhys’s behaviour escalated when he inappropriately pinched Sarah as she walked past the table he was sitting at.What do you think about the situation? ",
-        "A":"She’s being dramatic ,he’s just being friendly ",
+        "A":"She’s being dramatic, he’s just being friendly ",
         "B":"She needs to report to her supervisor",
         "C":"Change your shifts",
         "D":"She likes it",
@@ -294,14 +294,12 @@ function incrementScore (x) {
  */
 
 function displayResults () {
-    if (score >= 1200){
-        $('#grade-seventy').modal('show');
+    if (score <= 800){
+        $('#grade-low').modal('show');
     } else if (score <= 1100){
-        $('#play-game-rules').modal('show');
-    }else if (score === 100) {
-        alert(" We strongly advise you seek a therapist or talk with one of our counsellors today. It's dangerous in these times to have such thinking on abuse");
+        $('#grade-fifty').modal('show');
     }else{
-        alert ("You have a good support system which is great and mental health seems to be on check 😄. Good news");
+        $('#grade-seventy').modal('show');
     }
     resetState();
 }

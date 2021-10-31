@@ -652,6 +652,10 @@
     border:0;
 }
 
+#rules li{
+    padding-bottom: 10px;
+}
+
 .modal-title{
     color:#845EC2;   
 }
@@ -660,6 +664,8 @@
     border: 0;
     justify-content:center;
 }
+
+
 
 .scores{
     justify-content: center;

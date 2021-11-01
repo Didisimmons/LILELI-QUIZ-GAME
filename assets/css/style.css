@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap|family=Oswald:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap|family=Lato:100,200,300,400,500,600,700');
 
 :root{
     background-color:#FBEAFF;
@@ -94,6 +93,7 @@
     color: #845EC2;
     font-size: 5rem;
     padding: 2rem;
+    font-family: "Lato";
 
     animation-name: stretch;
     animation-duration: 1.5s; 
@@ -130,7 +130,7 @@
     line-height: 2rem;
     text-align: center;
     font-style: italic;
-    font-family: "Oswald", sans-serif;
+    font-family: "Lato";
     padding: 1rem;
     margin-bottom: 0 !important;
     font-size: 1.5rem;
@@ -150,7 +150,7 @@
 .tag-line-text{
     color:#B39CD0;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Lato";
 
     animation-name:hero-zoom;
     animation-duration: 5s;
@@ -425,7 +425,6 @@
 }
 
 .footer-text{
-    font-family:"Oswald", sans-serif;
     font-size: 14px;
     color: #00C9A7;
     text-align: center;

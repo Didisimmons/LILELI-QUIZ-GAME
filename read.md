@@ -19,3 +19,52 @@ Lileli is a safe environment dedicated to educating the public about the many ty
 Our community's experiences would be utilized to make our comics , which would address an ongoing issue in today's culture by training young adults to speak up when they are exploited/harrased/mistreated. This website is aimed towards persons above the age of 18, with the goal of educating them as well as providing a secure space for people to share their stories and learn new things.
 
 The goal of this project is to construct a quiz game that tests the user's knowledge on the topics of Consent and Sexual Harassment, plus a few scenario questions to really put your knowledge to the test. Once finished, the user is given results based on their scores, as well as brief information and links to further educate them on their understandings of consent. We feel that by sharing all of these materials, we are helping to fight sexual harassment/abuse of all kinds and making the world a safer place.
+
+### Business Goals
+As a business owner I want : 
+
+* Create a visually appealing website that focuses visitors' attention to the battle against assaults/harassment
+
+* To build a website where people may feel comfortable and trust our brand in order to join our community.
+
+* Users should be able to readily comprehend our objective through our comics and meet people from various backgrounds.
+
+* Users may complete the 20-question questionnaire on sexual harassment and consent in order to determine the percentage of people who are aware of abuse and to give them with links to further educate them on Sexual Abuse and Consent.
+
+### User Goals 
+
+As a customer I want to :
+
+* Easily navigate the site and comprehend the objective of the site in order to take appropriate action if necessary.
+
+* The site should be visually appealing and trustworthy in order to want to join their community and share a story.
+
+* Easily find LILELI online on their social networks to learn more about the brand and confirm its legitimacy and trustworthiness.
+
+* Be able to readily view the questions and learn something new when I take the quiz.
+
+## Design
+
+* Colour Scheme
+
+    - - The colors used in the site's design were developed using the colorspace website. The [spotpallete] (https://mycolor.space/?hex= percent 23845EC2&sub=1) was chosen.
+
+
+    - The colours reflect LILELI's brand in order to convey trust and a comfortable space to consumers, as purple represents royalty and has long been connected with abuse victims. To keep the site clean and simple, a white pallete is offered.
+    
+* Typography
+
+  - To ensure consistency, the Oswald and EB Garamond fonts are used throughout the site. The two fonts give our site a distinct personality and elegance, as well as an appealing appearance.
+
+* Imagery 
+
+  - The photos featured throughout the site were obtained from free image providers such as Unsplash, Pexels, Pixibay, and so on.
+   
+   - The photographs portray a modern aesthetic gym where members are having fun using the gym's facilities and equipment, as well as the energy that can be expected there. The graphics' purpose is to draw viewers' attention to the FLY BODY website, where they may register and join the community.
+
+### Wireframes:  
+
+The wireframe for the entire site is available [here](https://www.figma.com/file/8qHDfvLP2VWCYEGpWECjkS/FLYBODY?node-id=0%3A1).  This shows the site on both a desktop and a mobile device, with some tablet view wireframes indicating when the screen view is different and its interactions.
+
+
+## Features

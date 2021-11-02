@@ -182,7 +182,7 @@ The images used on the website were mainly gotten from the entrepreneur Teni Fas
 
 * The icons in the more facilities area of the homepage were inspired by another [fitness website](https://strong.zumba.com/en-US/pages/class), which aided in the arrangement of the icons. 
 
-* The inspiration for the site's design came from research on various culture movement sites  online study on various gyms accessible, such as [Ignite](https://ignitefitness.com/rates/),[celebrity fitness](https://www.celebrityfitness.com.ph/) and [Zumba](https://strong.zumba.com/en-US/)
+* The inspiration for the site's design came from research on various abuse support sites such as  sites  online study on various gyms accessible, such as [Meetoo](https://ignitefitness.com/rates/),[celebrity fitness](https://www.celebrityfitness.com.ph/) and [Zumba](https://strong.zumba.com/en-US/)
 
 * The design of the login page was influenced by another [fitness website](https://www.zumba.com/en-US)
 

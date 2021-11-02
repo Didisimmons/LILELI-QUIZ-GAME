@@ -4,9 +4,9 @@
 
 ### Overview of project: 
 
-Lileli is a website dedicated to eradicating the stigma associated with any form of abuse. To raise awareness about the fact that people are mistreated every day, with many unaware, and to educate the public about the abuse culture. Its purpose is to build a community in which people may share their tales and meet people who can assist them in their healing process. 
+Lileli is a website created for a London-based entrepreneur who is committed to removing the stigma connected with any sort of abuse through comics. Raising awareness about the reality that people are mistreated on a daily basis, with many people being ignorant, and educating the public about the abuse culture. Its goal is to create a community where people can share their stories and meet people who can help them heal.
 
-We offer resources that are both educational and understandable to young adults. For example, our Comics are simple and enjoyable to study; these are true stories from our community created just for you. We aim to address the ongoing issue in today's society by teaching everyone about the negative impacts of abuse, and we feel that doing so would help to minimize the alarmingly high rate of assaults/harassment that has been increasing on a daily basis.
+We provide resources for young adults that are both instructive and understandable. For example, our Comics are simple and pleasant to read; these are actual stories from our community developed exclusively for you, therefore our slogan "comic made by you for you." We hope to solve the ongoing problem in today's society by educating everyone about the harmful consequences of abuse, and we believe that doing so will help to reduce the dangerously high rate of assaults/harassment that has been increasing on a daily basis.
 
 A 20-question questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
 
@@ -29,7 +29,7 @@ As a business owner I want :
 
 * Users should be able to readily comprehend our objective through our comics and meet people from various backgrounds.
 
-* Users may complete the 20-question questionnaire on sexual harassment and consent in order to determine the percentage of people who are aware of abuse and to give them with links to further educate them on Sexual Abuse and Consent.
+* Users may complete the 20-question questionnaire on sexual harassment and consent in order to determine the percentage of people who are aware of abuse and to give them links to further educate them on Sexual Abuse and Consent.
 
 ### User Goals 
 
@@ -47,24 +47,34 @@ As a customer I want to :
 
 * Colour Scheme
 
-    - - The colors used in the site's design were developed using the colorspace website. The [spotpallete] (https://mycolor.space/?hex= percent 23845EC2&sub=1) was chosen.
+    -  The colors used in the site's design were developed using the colorspace website. The [spotpallete] (https://mycolor.space/?hex= percent 23845EC2&sub=1) was chosen.
 
 
     - The colours reflect LILELI's brand in order to convey trust and a comfortable space to consumers, as purple represents royalty and has long been connected with abuse victims. To keep the site clean and simple, a white pallete is offered.
     
 * Typography
 
-  - To ensure consistency, the Oswald and EB Garamond fonts are used throughout the site. The two fonts give our site a distinct personality and elegance, as well as an appealing appearance.
+  - The Oswald and EB Garamond typefaces are used throughout the site to provide consistency. The two fonts provide our site a friendly, distinct and appealing appearance to our target demographic.
 
 * Imagery 
 
-  - The photos featured throughout the site were obtained from free image providers such as Unsplash, Pexels, Pixibay, and so on.
+  - Most of the photos used on the site were obtained from the entrepreneur Teni Fashanu. The header image, the product images and the images used to to create the background picture for certain sections. However some of these images were modified using phtoshop for the background images, 
+
+  - The photos utilized depict what to expect from LILELI's comics as well as the welcoming environment you can expect when you join our community. The photographs are aimed at a certain demographic in order to capture their attention and portray a secure sanctuary.
+  
+  - Images from free image providers such as Unsplash were used on the other pages.
+
+* Videos 
    
-   - The photographs portray a modern aesthetic gym where members are having fun using the gym's facilities and equipment, as well as the energy that can be expected there. The graphics' purpose is to draw viewers' attention to the FLY BODY website, where they may register and join the community.
+   - The homepage video was received from entrepreneur Teni Fashanu and was made by Henryhousefilms.
 
 ### Wireframes:  
 
-The wireframe for the entire site is available [here](https://www.figma.com/file/8qHDfvLP2VWCYEGpWECjkS/FLYBODY?node-id=0%3A1).  This shows the site on both a desktop and a mobile device, with some tablet view wireframes indicating when the screen view is different and its interactions.
+The full site's wireframe is available [here](https://www.figma.com/proto/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2). This displays the site on both a desktop and a mobile device, along with its interactions.
 
 
 ## Features
+Each of the pages designed for the website contain different content that appeal to the user. 
+
+#### HOME 
+The homepage features a full responsive navigation bar that entails the logo  

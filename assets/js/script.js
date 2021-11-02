@@ -172,6 +172,10 @@ const scoreField = document.getElementById("score");
 const progressBar = document.getElementById("progress-icon");
 
 let score;
+let acceptAnswers;
+let currentQuestion;
+let applyClass;
+let questionsAvailable;
 let questionCounter;
 const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;

@@ -25,3 +25,19 @@
 * [JSHint validation ](https://jigsaw.w3.org/https://jshint.com/): This was used to validate our Javascript code used on the quiz page. The code was found to be free from all errors. See screenshots below.
 
 ![JSHint validation ](assets/images/jshint-validation.png)
+
+
+### User stories Testing 
+
+The common path for our user through LILELI website is : 
+
+* ABOUT  > PRODUCTS  > ROOMS 
+ 
+The user can easily navigate tthro the next page from any of the sites by lingering over any of the required five webpages. The home page is represented by the FLYBODY logo. If clicked, user would be taken to the main page of the website.
+
+The user may quickly sign up to FLYBODY gym using the call to action button on the hero image on the home page. The user can quickly examine the amenities, benefits, team members, customer reviews and subscribe to FLYBODY newsletter in a case were the user does not interact with the other pages, this is all on one page to hasten the Sign Up process .
+
+When the screen width is set to a desktop view, the FLYBODY logo on all devices takes the user to the homepage, and when the user hovers over any of the webpage links, it is highlighted with a light grey backdrop. The navigation bar on a tablet or mobile device is a hamburger icon that, when clicked, allows the user to hover over the five  webpages and see the grey highlight backdrop. 
+
+- As a customer I want to : 
+

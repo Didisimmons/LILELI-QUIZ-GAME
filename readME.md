@@ -49,12 +49,11 @@ As a customer I want to :
 
     -  The colors used in the site's design were developed using the colorspace website. The [spotpallete] (https://mycolor.space/?hex= percent 23845EC2&sub=1) was chosen.
 
-
     - The colours reflect LILELI's brand in order to convey trust and a comfortable space to consumers, as purple represents royalty and has long been connected with abuse victims. To keep the site clean and simple, a white pallete is offered.
     
 * Typography
 
-  - The typefaces Poppins and Lato are used across the site to maintain uniformity and to give the site a distinct and welcoming appearance. The two fonts make the site approachable and appealing to our intended audience.
+  - To ensure consistency and to give the site a distinct and friendly image, the typefaces Poppins and Lato are used throughout. The two fonts help to make the site approachable and appealing to our target demographic. There is also a backup font included.
 
 * Imagery 
 

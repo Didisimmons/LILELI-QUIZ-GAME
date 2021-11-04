@@ -54,7 +54,7 @@ As a customer I want to :
     
 * Typography
 
-  - The Oswald and EB Garamond typefaces are used throughout the site to provide consistency. The two fonts provide our site a friendly, distinct and appealing appearance to our target demographic.
+  - The typefaces Poppins and Lato are used across the site to maintain uniformity and to give the site a distinct and welcoming appearance. The two fonts make the site approachable and appealing to our intended audience.
 
 * Imagery 
 
@@ -76,23 +76,63 @@ The full site's wireframe is available [here](https://www.figma.com/proto/jQcJQc
 ## Features
 Each of the pages designed for the website contain different content that appeal to the user. 
 
-#### HOME 
-The homepage features a full responsive navigation bar that entails the logo  
+
+### HOMEPAGE 
+The homepage has a fully responsive navigation bar with the logo on the left and three different links (about, products, and rooms) on the right. When a user adjusts the screen to a mobile device, the three different links on the right move to the centre of the screen, leaving the logo alone. 
+
+The hero image is displayed beneath the navigation bar in order to catch the user's attention. The header text and tag line text have a zoom in effect that makes them visually appealing to the user.
+
+The about section is located beneath the hero image and provides the user with a brief overview of LILELI’s mission. This gives users a small amount of trust in what LILELI is about and how it might be useful for them to stay engaged on the site.
 
 
+A video has been added under the about section to raise awareness about the abuse culture and how LILELI can help you. The video's goal is to show abuse victims that they are not alone and that we are all in this together. Under the video content, there is a read more button that allows the user to see more weekly information about LILELI on their blog. This gives the user confidence in the LILELI brand and materials for self-research and education.
+
+The review section is located beneath the video section and displays real-life stories from our community members. These are some of the victims' stories about what they've been through and what you can expect from the lessons in our comics once you buy them. 
+A brief compelling text is also included to warm the hearts of the users and demonstrate to them that as a brand, we understand and are here to help, with the goal of gaining their trust. 
+
+This section is followed by a display of comic products. The comics are divided into three major categories, each of which, when clicked, takes the user to a page with a variety of additional comics on specific abuse topics. This displays LILELI's products and informs the user of LILELI's sole purpose. 
+
+We have the quiz container under this section, which is placed directly beneath the product section and contains some enticing text about why you should join LILELI. It also enables the user to complete LILELI's twenty-question questionnaire on sexual harassment, abuse, and consent. This enlightens users on the subject, keeping us all informed of the importance of respecting others' rights and comprehending the concept of "consent." The user can also participate in the LILELI conversation on social media by using the hashtag #jointheconversation. The goal of LILELI is for all users to feel a sense of belonging to the LILELI community.
+
+Finally, we have the footer section, which includes LILELI's social media on the left side and a link to their support page and a find out more link on the right side. The social media platforms demonstrate LILELI's legitimacy as a business and foster brand trust.
 
 
-#### FRAMEWORKS,LIBRARIES AND PROGRAM USED 
+### START PAGE 
+
+When the user clicks the "Take Quiz" button, the user is taken to the start page. This page includes an image that draws the user's attention to the LILELI quiz. On all devices, the image is centred with a bold text that asks the user to confirm they are over the age of 18 before they can access the quiz. The button controls enable the user to play the game or return to the homepage.
+
+
+### QUIZ PAGE
+
+The quiz page is launched after the user confirms "YES" from the start page that they are over the age of 18. The page includes two large buttons that are stacked on top of each other and display the messages "start" and "instructions." This gives the user instructions on how to play the game, and the start button directs  the user to the questions. A link to the main site has also been included. 
+
+This procedure has been followed to ensure that the correct target audience has been reached and that we are not violating any rights by displaying sensitive content to those of an inappropriate age.
+
+When the game begins, the following features are visible: the question counter and progress bar placed above it on the left side, and the score field on the right side. The answer options are listed at the bottom of the questions, and the user must select one to proceed to the next question. 
+
+After completing the questionnaire, the user is given their results as well as links to additional information on Consent & Sexual Harassment. When the user closes the results, they are presented with a "PLAY AGAIN" button, which allows them to reset the game and begin again, with the option of returning to the homepage. 
+
+### EXISTING FEATURES 
+
+
+### TECHNOLOGIES USED
+
+### LANGUAGES USED : 
+* HTML5
+* CSS3 
+* Javascript
+
+### FRAMEWORKS,LIBRARIES AND PROGRAM USED 
 
 1. [BOOTSTRAP 4.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/): This was utilized to help with the website's structure, style, and responsiveness for all devices. 
 
-2. [FONTAWESOME](https://fontawesome.com/): This was used to beautify the appearance of the site and convey information. 
+2. [FONTAWESOME](https://fontawesome.com/): This was used to beautify the appearance of the site and convey information through the use of icons. 
 
 3. [GOOGLE FONTS](https://fonts.google.com/specimen/Poppins?query=pop#standard-styles): The fonts Poppins and Lato have been  imported into the stylesheet for use in design of this project.
 
 4. [FIGMA](https://www.figma.com/): This was used to develop the wireframes ( mobile and desktop devices) for LILELI website. 
 
-5. [JSHint](https://jshint.com/): This was used to analyze the javascript code , to ensure errors are minimised.
+5. [JSHint](https://jshint.com/): This was used to analyze the javascript code , to ensure errors were minimised.
 
 6. [GIT](https://git-scm.com/): This was the preferred method of version control. To commit and publish our project to github, we used the gitpod.
 
@@ -102,10 +142,12 @@ The homepage features a full responsive navigation bar that entails the logo
 
 9. [VISUAL STUDIO CODE](https://code.visualstudio.com/): This was used for writing and testing out the project’s code before committing to github  to avoid internet connection interference.  
 
-## Testing
+
+## TESTING 
 This can be found in the file [TEST.md](TEST.md)
 
-## Deployment 
+
+### DEPLOYMENT
 
 1. GitHub Pages
 
@@ -130,64 +172,24 @@ This can be found in the file [TEST.md](TEST.md)
 
       * Decide from the list of repositories which you would want to be duplicated. For this project it's [LILELI](https://github.com/Didisimmons/https://github.com/Didisimmons/LILELI-QUIZ-GAME).
 
-      * Locate the "fork" option at the top right corner of the LILELI QUIZ GAME and click it. Once clicked it creates another copy of the LILELI QUIZ GAME repository to accomodate modifications. 
+      * Locate the "fork" option at the top right corner of the LILELI QUIZ GAME and click it. Once clicked it creates another copy of the LILELI QUIZ GAME repository to accomodate modifications.
 
 
-3. Making A Local Clone
+## CREDITS
 
-    * Please sign in to your GitHub account. 
+### CONTENT 
 
-    * Locate the desired repository in this case [FLYBODY](https://github.com/Didisimmons/Flybody-gym).
 
-    * Locate the “Code” button at the top of the FLYBODY repository page. Click it and copy the HTTPS link that appears. 
 
-    * Activate your local IDE terminal. 
 
-    * Change the current working directory to the location where you wish the cloned file to be saved. 
+### MEDIA
 
-    * In the terminal, type “git clone” and then paste the link copied from HTTPS. 
+The photographs on the website were primarily obtained from entrepreneur Teni Fashanu, with some of them being examples that have yet to be published. Procreate and Photoshop were also used to create some of the photos.
 
-    * e.g "git clone https://github.com/Didisimmons/Flybody-gym.git" 
+* Teni Fashanu provided the LILELI logo, hero picture, product photos, review background image collage, and quiz container background image. The review backdrop picture collage and the quiz container background image, on the other hand, were modified to appear as they did on the webpage.
 
-    * The clone has been made once you press enter.
-
-4. Download And Extract File From GitHub.  
-
-    * Please sign in to your GitHub account. 
-
-    * Find the desired repository, in this case [FLYBODY](https://github.com/Didisimmons/Flybody-gym). 
-
-    * Locate the “Code” button at the top of the FLYBODY repository page. Click it and select “download ZIP” . 
-
-    * Once this is downloaded, use any decompressing tool to open the zip file. 
-
-    * Once the file has been opened, any IDE of choice can be used to edit file and make changes. 
-
-#### MEDIA
-
-The images used on the website were mainly gotten from the entrepreneur Teni Fashanu, which are samples that have yet to be published. 
-
-* LILELI's logo, hero image, product images, review background image collage and the quiz container background image were obtainned from Teni Fashanu.
-
-*	The image used on the start page was a photo by Mika Baumeister from [unsplash](https://unsplash.com/photos/MvNahx-yrqY). 
+*	David Damz, a graphic designer, made the image on the first page using ProCreate and Photoshop.
 
 *	The LILELI video used on the website was obtained from entrepreneur Teni Fashanu produced by Henryhousefilms.
 
-
-
-## Credits 
-
-#### CONTENT 
-* The code used to construct  the hero image for all web pages was borrowed from the [whiskey project at the code institute](https://github.com/Didisimmons/Bootstrap-project1/blob/master/index.html).
-
-* The icons in the more facilities area of the homepage were inspired by another [fitness website](https://strong.zumba.com/en-US/pages/class), which aided in the arrangement of the icons. 
-
-* The inspiration for the site's design came from research on various abuse support sites such as  sites  online study on various gyms accessible, such as [Meetoo](https://ignitefitness.com/rates/),[celebrity fitness](https://www.celebrityfitness.com.ph/) and [Zumba](https://strong.zumba.com/en-US/)
-
-* The design of the login page was influenced by another [fitness website](https://www.zumba.com/en-US)
-
-* Code assistance with the positioning of team member photographs on the homepage and instructors on the teacher page was obtained from another peer's project [here](https://vanessacleary.github.io/vanessacleary-Ms1-2021/index.html#home-section) in code institute.
-
-* Inspiration from another coding institute peer was used to help with the placement of the photos in the facilities [section](https://deannacarina.github.io/travelcaribbean/index.html). 
-
-* This readme document was based on research on several readme documents such as the code institute's readme [sample](https://github.com/Code-Institute-Solutions/SampleREADME), the ajgreaves readme [sample](https://github.com/AJGreaves/portrait-artist/blob/master/README.md#anna-gilhespy), and the code institute's love running project [sample](https://github.com/Code-Institute-Solutions/readme-template).
+#### ACKNOWLEDGEMENTS

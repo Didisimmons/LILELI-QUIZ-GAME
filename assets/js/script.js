@@ -60,7 +60,7 @@ let questions = [
         "A":"Give her a second chance",
         "B":"Move FAR away",
         "C":"Report to Authorities, this could escalate",
-        "D":"Just ignore her, shell go away",
+        "D":"Just ignore her, she'll go away",
         "answer":"C",
     },
     {
@@ -184,8 +184,9 @@ const POINTS = 100;
 /**
  *The Event Listener should only function while the user is on the quiz.html page.
  */
+
 if (window.location.pathname == "/quiz.html") {
-    startButton.addEventListener('click' , startGame );
+    startButton.addEventListener('click' , startGame,{ passive: true });
   }
 
 

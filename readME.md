@@ -72,7 +72,7 @@ As a customer I want to :
 The full site's wireframe is available [here](https://www.figma.com/proto/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2). This displays the site on both a desktop and a mobile device, along with its interactions.
 
 
-## Features
+## FEATURES
 Each of the pages designed for the website contain different content that appeal to the user. 
 
 
@@ -113,6 +113,16 @@ After completing the questionnaire, the user is given their results as well as l
 
 ### EXISTING FEATURES 
 
+### FEATURES TO IMPLEMENT IN THE FUTURE 
+
+1. The "Read more" button on the homepage should direct the user to the various types of comics related to the specific topic clicked.
+
+2.	Every time the user skips to a new question in the questionnaire, the option answers should be random. The order of the responses should differ from that of the script.js file.
+
+3.  When the user has finished playing the game, a form should be provided in which they can enter their names and phone numbers in order to be contacted.
+
+4.	When playing the game, the user should be able to select the number of questions they want to answer. They should be given a group of topics to select from to play the game 
+
 
 ### TECHNOLOGIES USED
 
@@ -147,6 +157,8 @@ This can be found in the file [TEST.md](TEST.md)
 
 
 ### DEPLOYMENT
+
+This project was deployed using GitHub pages, and the steps required to do so are detailed below. In the event that a user wishes to fork the game, the necessary steps are also provided below.
 
 1. GitHub Pages
 

@@ -293,7 +293,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     -	The same effect occurs when the mouse is hovered over the "return to homepage" link as when the user launches the game. A box shadow appears, and the text color changes.
 
-    ![ quiz return home link hover effect ](assets/images/return_home_effect.png).
+    ![ quiz return home link hover effect](assets/images/return_home_effect.png).
 
     - When the user hovers over one of the four options available, each of the buttons expands.
 

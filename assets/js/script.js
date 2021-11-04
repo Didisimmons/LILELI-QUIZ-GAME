@@ -188,13 +188,6 @@ const POINTS = 100;
     startButton.addEventListener('click' , startGame);
   }
 
-  /* Code borrowed  from stack overflow */
-  document.addEventListener("touchstart", function(e) {
-    console.log(e.defaultPrevented);  // will be false
-    e.preventDefault();   // does nothing since the listener is passive
-    console.log(e.defaultPrevented);  // still false
-}, Modernizr.passiveeventlisteners ? {passive: true} : false);
-
 
 /**
  * Starts the game by hiding the instruction button, sorting all of the questions, and setting the necessay variables to their default values.

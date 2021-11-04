@@ -113,15 +113,26 @@ After completing the questionnaire, the user is given their results as well as l
 
 ### EXISTING FEATURES 
 
+* Call to action buttons : This exist on every single page and directs the user to either the homepage, start page or the quiz page to perform their desired function.
+
+* Hero image :  The majority of webpages include an image that draws the user's attention to the site. Its goal is to capture the LILELI experience while also being visually appealing to the user.
+
+* Question Progress Bar:  On the quiz page, there is a question progress bar that can be seen once the user begins the game. This is present on every single page and grows as the user answers each of the questions.
+
+* Score Field : This field is updated whenever the user correctly answers a question. Every time the correct answer is given, the score is increased by 100.
+
+* Play Again: This enables the user to restart the game.
+
+
 ### FEATURES TO IMPLEMENT IN THE FUTURE 
 
-1. The "Read more" button on the homepage should direct the user to the various types of comics related to the specific topic clicked.
+* The "Read more" button on the homepage should direct the user to the various types of comics related to the specific topic clicked.
 
-2.	Every time the user skips to a new question in the questionnaire, the option answers should be random. The order of the responses should differ from that of the script.js file.
+*	Every time the user skips to a new question in the questionnaire, the option answers should be random. The order of the responses should differ from that of the script.js file.
 
-3.  When the user has finished playing the game, a form should be provided in which they can enter their names and phone numbers in order to be contacted.
+*  When the user has finished playing the game, a form should be provided in which they can enter their names and phone numbers in order to be contacted.
 
-4.	When playing the game, the user should be able to select the number of questions they want to answer. They should be given a group of topics to select from to play the game 
+*	When playing the game, the user should be able to select the number of questions they want to answer. They should be given a group of topics to select from to play the game 
 
 
 ### TECHNOLOGIES USED

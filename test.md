@@ -113,6 +113,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
          The image text header and tagline text are visible on all devices .The font family was changed from "poppins" to "Lato" to improve the visual appearance of the site and entice the user to the site. The stretch animation is applied to both text as expected, adjusting to all screen sizes . However, it was discovered that while the font worked on the local system, it did not respond when published on GitHub. 
 
         This was rectified by conducting research on similar issues on stack overflow, which yielded a variety of suggestions. The previous code from the Google Fonts page has been replaced with the current stylefont link used in the CSS stylesheet.
+        
 
 3.	About us section   
 

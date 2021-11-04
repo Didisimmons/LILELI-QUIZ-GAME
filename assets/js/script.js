@@ -180,14 +180,20 @@ let questionCounter;
 const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;
 
-
 /**
  *The Event Listener should only function while the user is on the quiz.html page.
  */
 
-if (window.location.pathname == "/quiz.html") {
-    startButton.addEventListener('click' , startGame,{ passive: true });
+ if (window.location.pathname == "/quiz.html") {
+    startButton.addEventListener('click' , startGame);
   }
+
+  /* Code borrowed  from stack overflow */
+  document.addEventListener("touchstart", function(e) {
+    console.log(e.defaultPrevented);  // will be false
+    e.preventDefault();   // does nothing since the listener is passive
+    console.log(e.defaultPrevented);  // still false
+}, Modernizr.passiveeventlisteners ? {passive: true} : false);
 
 
 /**

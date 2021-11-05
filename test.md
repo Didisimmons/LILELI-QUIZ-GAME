@@ -89,7 +89,9 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     3. Adjust the desktop screen size to that of a tablet device to ensure the navigation bar is responsive and the menu items adjust to the screen size while remaining on the right side.
 
-         By adjusting the screen size to different breakpoints, it is possible to see that the menu items remain in the specified position to the right. As this screen is reduced to 320px or less on a small mobile device, the menu items take up the centre of the navigation bar, with the LILELI's emblem on the left. The menu items and logo adjust to all screen sizes and remain in the intended position.
+         By adjusting the screen size to different breakpoints, it is possible to see that the menu items remain in the specified position to the right. As this screen is reduced to 320px or less on a small mobile device, the menu items take up the centre of the navigation bar, with the LILELI's emblem on the left. The menu items and logo adjust to all screen sizes and remain in the intended position. See screenshot below on a mobile device.
+
+        ![ start page](assets/images/navigation-bar.png).
 
     4. Confirm that when the LILELI’s logo is clicked it directs the user to the home page. 
 
@@ -116,7 +118,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
         This was rectified by conducting research on similar issues on stack overflow, which yielded a variety of suggestions. The previous code from the Google Fonts page has been replaced with the current stylefont link used in the CSS stylesheet.
         
 
-3.	About us section   
+3.	About Us Section   
 
     1. On a desktop device, go to the LILELI home page.
 
@@ -124,7 +126,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
          When the about us text is tested by adjusting the desktop screen width to a tablet device, it can be seen that it is responsive to the screen width. To appear concise, the font size is adjusted to the different screen widths.
      
-4. Video section 
+4. Video Section 
    
     1. Go to the Home page and scroll to the video. 
 
@@ -330,6 +332,28 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 11.	When the user clicks the "Play again "button, they should be able to restart the game without any problems. All functions should be operational as expected. 
 
      After running the test, it is clear that the user is free to restart the game with no problems. Before you click the button, you can see the hover effect. The score field clears when the user restarts the game, and the incremental function works as the user skips from one question to the next, with all questions displayed.
+
+
+
+## FURTHER TESTING 
+
+* To ensure that the site was error-free, it was tested on a desktop device, an iPad Pro, an iPad, an iPhone (6,7,8, and an iPhone SE).
+
+* Entrepreneur Teni and colleagues were given access to the site in order for them to provide feedback. One commenter complained that there were too many new links that opened in a new tab. This was corrected by removing the "target =_blank" attribute from the controls on the start page and quiz page buttons. As the user interacted with the start and quiz pages, all links that were clicked in the same browser were refreshed to improv user experience. 
+
+* Another criticism was that the homepage header text was not enticing enough. The font family did not properly introduce the webpage. This was corrected by changing the font family of the header text to "Lato." This modification added a more distinct thrill to the website and made it more visually appealing.
+
+
+#### LIGHTHOUSE 
+
+The lighthouse test was used to assess the performance, accessibility, best web practices, and SEO of our website. Except for the homepage, the three webpages had high performance scores, which could be attributed to a lack of backup files (images) for varying bandwidths or to caching.
+Here are screenshots for the lighthouse test on desktop devices: 
+
+![lighthouse_desktop_screeshot_for_homepage](assets/images/lighthouse_homepage_desk.png)
+
+![lighthouse_desktop_screenshot_for_quizpage](assets/images/lighthouse_startpage_desk.png)
+
+![lighthouse_desktop_screenshot_for_timetablepage](assets/images/lighthouse_quizpage_desk.jpeg)
 
 
 

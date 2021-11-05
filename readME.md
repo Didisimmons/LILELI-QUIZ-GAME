@@ -169,7 +169,7 @@ After completing the questionnaire, the user is given their results as well as l
 This can be found in [TEST.md](test.md) file.
 
 
-### DEPLOYMENT
+## DEPLOYMENT
 
 This project was deployed using GitHub pages, and the steps required to do so are detailed below. In the event that a user wishes to fork the game, the necessary steps are also provided below.
 
@@ -203,7 +203,32 @@ This project was deployed using GitHub pages, and the steps required to do so ar
 
 ### CONTENT 
 
+*	 The code for this game was inspired by extensive research on several quiz game tutorials, articles, and discussion boards. Here are the few YouTube channels  researched : 
+     * [Kindson The Tech Pro](https://www.youtube.com/watch?v=2Bpiluefkh8&t=882s&ab_channel=KindsonTheTechPro). 
 
+     * [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign)
+
+     * [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&t=25s&ab_channel=WebDevSimplified)
+
+     * [Keep Coding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding)
+
+     * [Coding Nepal](https://www.youtube.com/watch?v=pQr4O1OITJo&t=895s&ab_channel=CodingNepal)
+ 
+* The design of the site was inspired by research on various abuse support sites such as [Meetoo](https://metoomvmt.org/), [Everyone's invited](everyonesinvited.uk/), and [Emotional Abuse](http://stoprelationshipabuse.org/educated/types-of-abuse/emotional-abuse/).
+
+*	The animation effect applied to the navigation bar was gotten from [FLYBODY](https://github.com/Didisimmons/Flybody-gym/blob/master/assets/css/style.css) while the effect used on the hero image header and text were gotten from [CSS tricks](https://css-tricks.com/almanac/properties/a/animation/). 
+
+* The box shadow effect on the page's buttons was obtained from Youtuber [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign) and modified with CSS.
+
+
+* The two YouTubers [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign) and [Keep Coding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding).
+
+
+* Code inspiration came from [KindsonTheTechPro]( https://www.kindsonthegenius.com/javascript/quiz-application-in-javascript-with-validation-step-by-step/#t4) , another coding institute peer’s [script.js]( https://mervekucukzoroglu.github.io/FikaMed/assets/js/script.js) file and [KeepCoding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding)
+
+* This readme document was based on research on several readme documents, including the Code Institute's readme [sample](https://github.com/Code-Institute-Solutions/SampleREADME), AJ Greaves' readme [sample](https://github.com/AJGreaves/portrait-artist/blob/master/README.md#anna-gilhespy), and my previous readMe [file ](https://github.com/Didisimmons/Flybody-gym/blob/master/README.md)
+
+* After conducting research, [flaviocopes](https://flaviocopes.com/how-to-shuffle-array-javascript/) provided code inspiration for the randomization of the questions.
 
 
 ### MEDIA
@@ -212,8 +237,18 @@ The photographs on the website were primarily obtained from entrepreneur Teni Fa
 
 * Teni Fashanu provided the LILELI logo, hero picture, product photos, review background image collage, and quiz container background image. The review backdrop picture collage and the quiz container background image, on the other hand, were modified to appear as they did on the webpage.
 
-*	David Damz, a graphic designer, made the image on the first page using ProCreate and Photoshop.
+*	David Damz, a graphic designer, made the image on the start page using ProCreate and Photoshop.
 
 *	The LILELI video used on the website was obtained from entrepreneur Teni Fashanu produced by Henryhousefilms.
 
-#### ACKNOWLEDGEMENTS
+
+### ACKNOWLEDGEMENTS
+
+The importance of learning by doing was demonstrated during the planning and execution of this project. Consuming all of the material modules and not knowing where to start was overwhelming at first, but starting from anywhere showed that as you progressed, the understanding and logic behind each of the statements would become more clear, for which I am grateful.
+
+I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me to use her business idea (LILELI comics) for my project. I believe it is critical to educate ourselves on the ongoing issue of different forms of abuse in today's society by teaching young adults/everyone to speak up when their rights/rights anyone's have been violated. The quiz game has been linked to this cause in order to educate/survey people's knowledge of Sexual Harassment and Consent in the Workplace, Relationships.
+
+I'd also like to thank the tutor support team for answering all of my questions and providing resources that could assist in resolving any problems that arose. 
+
+I'd also like to thank Sammy Dartnall, my mentor, for her constant encouragement and push throughout this project.
+

@@ -69,7 +69,7 @@ The contents are intended to capture the attention of our target audience and pi
 4. Be able to readily view the questions and learn something new when I take the quiz.
     *  The background image of the quiz container draws the user's attention to the quiz button. The quiz can be easily engaged with as the user navigates down the homepage and flows through the webpage content before reaching the footer content.  
 
-    *  When a user clicks the "Take Quiz" button, they are directed to another page to confirm their age before being able to view the 20 scenario-based quiz questionnaires.  
+    *  When a user clicks the "Take Quiz" button, they are directed to another page to confirm their age before being able to view the 20 scenario-based quiz questionnaire.  
 
     *  As the user completes the quiz, they are given a score that displays some informative text that may be useful to them. There are also external links to more in-depth content on the subject. 
 

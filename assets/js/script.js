@@ -180,8 +180,9 @@ let questionCounter;
 const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;
 
+
 /**
- *The Event Listener should only function while the user is on the quiz.html page.
+ * Event Listener active when user is on the quiz.html page.
  */
 
  if (window.location.pathname == "/quiz.html") {
@@ -190,7 +191,7 @@ const POINTS = 100;
 
 
 /**
- * Starts the game by hiding the instruction button, sorting all of the questions, and setting the necessay variables to their default values.
+ * The game begins by hiding the instruction button, sorting all of the questions, and setting the relevant variables to their default settings.
  */ 
 function startGame () {
     startButton.classList.add('hide');
@@ -206,7 +207,7 @@ function startGame () {
 }
 
 /**
- * shuffle the questions in order to obtain a random question from the array
+ * To obtain a random question from the question array.
  */
 function getAvailableQuestions () {
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
@@ -248,11 +249,12 @@ function showQuestion () {
 
 
 /**
- * Allows the user to select only one answer; if correct/wrong, a class with a timeout is applied.
- *  For each new question answered correctly, the user's score is increased. 
+ * Allows the user to choose only one answer; if accurate or incorrect, a class with a timeout is applied.
+ *  The user's score is increased for each new question correctly answered.
  */
 function selectAnswer () {
     answers.forEach((answer) => { 
+       /** -- code assistance from Brian Design and KeepCoding check credit section  */
         answer.addEventListener("click" , e => {
             if(!acceptAnswers){
                 return;
@@ -261,7 +263,8 @@ function selectAnswer () {
             const selectedAnswer = e.target;
             const pickedAnswer = selectedAnswer.dataset.answer;
             console.log( pickedAnswer);
-    
+
+     /** -- end of code assistance from Brian Design and KeepCoding   */
             if (pickedAnswer === currentQuestion.answer){
                 applyClass = "right-answer";
                 selectedAnswer.parentElement.classList.add(applyClass);
@@ -285,7 +288,7 @@ function selectAnswer () {
 }
 
 /**
- * increase the score by 100 points,when the user selects the correct answer, the score field is updated.
+ * increase score by 100 points and update score field.
  */
 function incrementScore (x) {
     score +=x;
@@ -294,7 +297,7 @@ function incrementScore (x) {
 
 
 /**
- * When the user has done answering all of the questions, the game is reset and the results are displayed in a popup.
+ * Display results when quiz is complete and reset State
  */
 
 function displayResults () {
@@ -308,9 +311,9 @@ function displayResults () {
     resetState();
 }
 
-/**
- *Shows the Play Again button, which allows the user to reset the game.
- */
+
+/* Allows the user to reset the game */
+ 
 
 function resetState() {
     startButton.classList.remove('hide');
@@ -322,7 +325,7 @@ function resetState() {
 }
 
 /**
- * Resets the game, updates the score field, retrieves the questions, and shuffles the questions to display in new orders. 
+ * Resets the game, refreshes the score field, retrieves the questions, and shuffles them to display in different orders.
 */
 
 function resetGame  () { 

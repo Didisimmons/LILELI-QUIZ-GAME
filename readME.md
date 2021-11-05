@@ -8,7 +8,7 @@ Lileli is a website created for a London-based entrepreneur who is committed to 
 
 We provide resources for young adults that are both instructive and understandable. For example, our Comics are simple and pleasant to read; these are actual stories from our community developed exclusively for you, therefore our slogan "comic made by you for you." We hope to solve the ongoing problem in today's society by educating everyone about the harmful consequences of abuse, and we believe that doing so will help to reduce the dangerously high rate of assaults/harassment that has been increasing on a daily basis.
 
-A 20-question questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
+A 20 quiz questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
 
 ![overview of LILELI on all devices](assets/images/overview.png)
 
@@ -29,7 +29,7 @@ As a business owner I want :
 
 * Users should be able to readily comprehend our objective through our comics and meet people from various backgrounds.
 
-* Users may complete the 20-question questionnaire on sexual harassment and consent in order to determine the percentage of people who are aware of abuse and to give them links to further educate them on Sexual Abuse and Consent.
+* Users may complete the 20-quiz questionnaire on sexual harassment and consent in order to determine the percentage of people who are aware of abuse and to give them links to further educate them on Sexual Abuse and Consent.
 
 ### User Goals 
 
@@ -91,7 +91,7 @@ A brief compelling text is also included to warm the hearts of the users and dem
 
 This section is followed by a display of comic products. The comics are divided into three major categories, each of which, when clicked, takes the user to a page with a variety of additional comics on specific abuse topics. This displays LILELI's products and informs the user of LILELI's sole purpose. 
 
-We have the quiz container under this section, which is placed directly beneath the product section and contains some enticing text about why you should join LILELI. It also enables the user to complete LILELI's twenty-question questionnaire on sexual harassment, abuse, and consent. This enlightens users on the subject, keeping us all informed of the importance of respecting others' rights and comprehending the concept of "consent." The user can also participate in the LILELI conversation on social media by using the hashtag #jointheconversation. The goal of LILELI is for all users to feel a sense of belonging to the LILELI community.
+We have the quiz container under this section, which is placed directly beneath the product section and contains some enticing text about why you should join LILELI. It also enables the user to complete LILELI's twenty-quiz questionnaire on sexual harassment, abuse, and consent. This enlightens users on the subject, keeping us all informed of the importance of respecting others' rights and comprehending the concept of "consent." The user can also participate in the LILELI conversation on social media by using the hashtag #jointheconversation. The goal of LILELI is for all users to feel a sense of belonging to the LILELI community.
 
 Finally, we have the footer section, which includes LILELI's social media on the left side and a link to their support page and a find out more link on the right side. The social media platforms demonstrate LILELI's legitimacy as a business and foster brand trust.
 
@@ -109,7 +109,7 @@ This procedure has been followed to ensure that the correct target audience has 
 
 When the game begins, the following features are visible: the question counter and progress bar placed above it on the left side, and the score field on the right side. The answer options are listed at the bottom of the questions, and the user must select one to proceed to the next question. 
 
-After completing the questionnaire, the user is given their results as well as links to additional information on Consent & Sexual Harassment. When the user closes the results, they are presented with a "PLAY AGAIN" button, which allows them to reset the game and begin again, with the option of returning to the homepage. 
+After completing the quiz, the user is given their results as well as links to additional information on Consent & Sexual Harassment. When the user closes the results, they are presented with a "PLAY AGAIN" button, which allows them to reset the game and begin again, with the option of returning to the homepage. 
 
 ### EXISTING FEATURES 
 
@@ -128,7 +128,7 @@ After completing the questionnaire, the user is given their results as well as l
 
 * The "Read more" button on the homepage should direct the user to the various types of comics related to the specific topic clicked.
 
-*	Every time the user skips to a new question in the questionnaire, the option answers should be random. The order of the responses should differ from that of the script.js file.
+*	Every time the user skips to a new question in the quiz, the option answers should be random. The order of the responses should differ from that of the script.js file.
 
 *  When the user has finished playing the game, a form should be provided in which they can enter their names and phone numbers in order to be contacted.
 
@@ -166,7 +166,7 @@ After completing the questionnaire, the user is given their results as well as l
 
 
 ## TESTING 
-This can be found in [TEST.md](test.md) file.
+This can be found in [TESTING.md](test.md) file.
 
 
 ## DEPLOYMENT
@@ -203,7 +203,7 @@ This project was deployed using GitHub pages, and the steps required to do so ar
 
 ### CONTENT 
 
-*	 The code for this game was inspired by extensive research on several quiz game tutorials, articles, and discussion boards. Here are the few YouTube channels  researched : 
+*	 The code for this game was inspired by extensive research on several quiz game tutorials, articles, and Stackoverflow. Here are the few YouTube channels researched : 
      * [Kindson The Tech Pro](https://www.youtube.com/watch?v=2Bpiluefkh8&t=882s&ab_channel=KindsonTheTechPro). 
 
      * [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign)

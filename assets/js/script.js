@@ -181,18 +181,14 @@ const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;
 
 
-/**
- * Event Listener active when user is on the quiz.html page.
- */
+/*  Event Listener active when user is on the quiz.html page.*/
 
  if (window.location.pathname == "/quiz.html") {
     startButton.addEventListener('click' , startGame);
   }
 
 
-/**
- * The game begins by hiding the instruction button, sorting all of the questions, and setting the relevant variables to their default settings.
- */ 
+/* The game begins by hiding the instruction button, sorting all of the questions, and setting the relevant variables to their default settings.*/ 
 function startGame () {
     startButton.classList.add('hide');
     instructionButton.classList.add('hide');
@@ -206,28 +202,21 @@ function startGame () {
     newQuestion();
 }
 
-/**
- * To obtain a random question from the question array.
- */
+/* To obtain a random question from the question array */
 function getAvailableQuestions () {
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
 }
     
 
-/**
- * assign the current question to the first item in the shuffled question array
- */
+/* assign the current question to the first item in the shuffled question array */
 function newQuestion () {
     currentQuestion = questionsAvailable[0]; 
     showQuestion();
 }
 
 
-/**
- * chooses the response choices accessible in quiz.html for each question and displays them under the current shuffled question
- * When the user has done playing the game, the results are displayed.
- * When the user is at a new question, the question counter and progressBar are updated
- */
+/*updates the question field, selects an answer, and refreshes the progress bar and question counter*/
+
 function showQuestion () {
     if (questionsAvailable.length === 0) {
         displayResults();
@@ -249,8 +238,8 @@ function showQuestion () {
 
 
 /**
- * Allows the user to choose only one answer; if accurate or incorrect, a class with a timeout is applied.
- *  The user's score is increased for each new question correctly answered.
+ * Allows the user to choose only one answer; if accurate or incorrect.
+ * The user's score is increased for each new question correctly answered.
  */
 function selectAnswer () {
     answers.forEach((answer) => { 
@@ -287,18 +276,14 @@ function selectAnswer () {
     
 }
 
-/**
- * increase score by 100 points and update score field.
- */
+/* increase score by 100 points and update score field */
 function incrementScore (x) {
     score +=x;
     scoreField.innerText = score;
 }
 
 
-/**
- * Display results when quiz is complete and reset State
- */
+/* Display results when quiz is complete and reset State*/
 
 function displayResults () {
     if (score <= 800){
@@ -325,7 +310,8 @@ function resetState() {
 }
 
 /**
- * Resets the game, refreshes the score field, retrieves the questions, and shuffles them to display in different orders.
+ * Resets the game, refreshes the score field, retrieves the questions,
+ * shuffles them to display in different orders.
 */
 
 function resetGame  () { 

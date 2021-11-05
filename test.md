@@ -22,7 +22,7 @@
 ![Stylesheet validation ](assets/images/css_validation.png)
 
 
-* [JSHint validation ](https://jigsaw.w3.org/https://jshint.com/): This was used to validate our Javascript code used on the quiz page. The code was found to be free from all errors. See screenshots below.
+* [JSHint validation ](https://jigsaw.w3.org/https://jshint.com/): This was used to validate the JavaScript code that was used on the quiz page. When this was first run, it was discovered that some semi-columns and defining variables were missing. This was corrected by introducing semicolons and defining the variables.
 
 ![JSHint validation ](assets/images/jshint-validation.png)
 
@@ -33,11 +33,9 @@ The common path for our user through LILELI website is :
 
 * ABOUT  > PRODUCTS  > ROOMS > QUIZ 
  
-The user can easily navigate tthro the next page from any of the sites by lingering over any of the required five webpages. The home page is represented by the FLYBODY logo. If clicked, user would be taken to the main page of the website.
+When a user hovers over one of the three different links on the navigation bar and clicks on it, he or she is seamlessly taken to the relevant section of the home page that contains the necessary information. From the homepage, the user can see everything LILELI has to offer, as well as their mission and beliefs. They can easily interact with and engage with the site's content. 
 
-The user can see everything LILELI has to offer, as well as their mission and beliefs, from the homepage. As they scroll through the content on the home page, they can easily interact with the site. 
-
-The contents are intended to capture the attention of our target audience and pique the user's interest in wanting to participate in and be involved in the LILELI movement. The take quiz button has been strategically placed near the bottom of the page to allow the user to interact with the page's other content first.
+The contents are designed to catch the attention of our target audience and pique the user's interest in wanting to participate in and be involved with LILELI. A "take quiz" button has been strategically placed near the bottom of the page to allow the user to gain an understanding of LILELI prior to participating in our quiz.
 
 
 - As a customer I want to : 

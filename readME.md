@@ -126,6 +126,8 @@ After completing the quiz, the user is given their results as well as links to a
 
 ### FEATURES TO IMPLEMENT IN THE FUTURE 
 
+* When a user clicks "Rooms" in the navigation bar, he or she should be directed to a channel where they can join different topics and discuss with people from all over the world.
+
 * The "Read more" button on the homepage should direct the user to the various types of comics related to the specific topic clicked.
 
 *	Every time the user skips to a new question in the quiz, the option answers should be random. The order of the responses should differ from that of the script.js file.

@@ -335,7 +335,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
 ## FURTHER TESTING 
 
-* To ensure that the site was error-free, it was tested on a desktop device, an iPad Pro, an iPad, an iPhone (6,7,8, and an iPhone SE).
+* The site was tested on a desktop device (Mac OS and Windows), an iPad Pro, an iPad, and an iPhone to ensure that it was error-free (6,7,8, and an iPhone SE).
 
 * Entrepreneur Teni and colleagues were given access to the site in order for them to provide feedback. One commenter complained that there were too many new links that opened in a new tab. This was corrected by removing the "target =_blank" attribute from the controls on the start page and quiz page buttons. As the user interacted with the start and quiz pages, all links that were clicked in the same browser were refreshed to improv user experience. 
 

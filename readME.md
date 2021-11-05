@@ -162,9 +162,11 @@ After completing the questionnaire, the user is given their results as well as l
 
 9. [VISUAL STUDIO CODE](https://code.visualstudio.com/): This was used for writing and testing out the project’s code before committing to github  to avoid internet connection interference.  
 
+10. [FAVICON](https://favicon.io/favicon-converter/): This was used to create the favicon for LILELI. LILELI's favicon is their brand logo, which helps users find their site when they are browsing multiple tabs.
+
 
 ## TESTING 
-This can be found in the file [TEST.md](TEST.md)
+This can be found in [TEST.md](test.md) file
 
 
 ### DEPLOYMENT

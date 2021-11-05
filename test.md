@@ -31,13 +31,14 @@
 
 The common path for our user through LILELI website is : 
 
-* ABOUT  > PRODUCTS  > ROOMS 
+* ABOUT  > PRODUCTS  > ROOMS > QUIZ 
  
 The user can easily navigate tthro the next page from any of the sites by lingering over any of the required five webpages. The home page is represented by the FLYBODY logo. If clicked, user would be taken to the main page of the website.
 
-The user may quickly sign up to FLYBODY gym using the call to action button on the hero image on the home page. The user can quickly examine the amenities, benefits, team members, customer reviews and subscribe to FLYBODY newsletter in a case were the user does not interact with the other pages, this is all on one page to hasten the Sign Up process .
+The user can see everything LILELI has to offer, as well as their mission and beliefs, from the homepage. As they scroll through the content on the home page, they can easily interact with the site. 
 
-When the screen width is set to a desktop view, the FLYBODY logo on all devices takes the user to the homepage, and when the user hovers over any of the webpage links, it is highlighted with a light grey backdrop. The navigation bar on a tablet or mobile device is a hamburger icon that, when clicked, allows the user to hover over the five  webpages and see the grey highlight backdrop. 
+The contents are intended to capture the attention of our target audience and pique the user's interest in wanting to participate in and be involved in the LILELI movement. The take quiz button has been strategically placed near the bottom of the page to allow the user to interact with the page's other content first.
+
 
 - As a customer I want to : 
 

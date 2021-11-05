@@ -166,7 +166,7 @@ After completing the questionnaire, the user is given their results as well as l
 
 
 ## TESTING 
-This can be found in [TEST.md](test.md) file
+This can be found in [TEST.md](test.md) file.
 
 
 ### DEPLOYMENT

@@ -340,6 +340,9 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
 * Another criticism was that the homepage header text was not enticing enough. The font family did not properly introduce the webpage. This was corrected by changing the font family of the header text to "Lato." This modification added a more distinct thrill to the website and made it more visually appealing.
 
+* The website [AM I Responsive](http://ami.responsivedesign.is/#) is used to capture LILELI's aesthetic look and responsiveness across all devices. Please see the screenshot below.
+
+    ![visual appearance across all devices](assets/images/overview.png)
 
 ### LIGHTHOUSE 
 

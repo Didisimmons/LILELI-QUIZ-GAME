@@ -8,7 +8,7 @@ let questions = [
         "answer":"A",
     },
     {
-        "question":"An employee witnesses another employee being physically assaulted. Can the witness be considered a victim in this case. ",
+        "question":"An employee witnesses another employee being physically assaulted. Can the witness be considered a victim in this case.",
         "A":"Not sure ",
         "B":" No",
         "C":"Maybe Its tricky",
@@ -20,11 +20,11 @@ let questions = [
         "A":" No",
         "B":" Yes ",
         "C":" Not sure",
-        "D":"That is quite extreme ",
+        "D":"That is quite extreme",
         "answer":"B",
     },
     {
-        "question":"Abuse complaints are unjustified mostly ?  ",
+        "question":"Abuse complaints are unjustified mostly ? ",
         "A":"Sometimes ",
         "B":" Depends on the abuser",
         "C":"No",
@@ -32,7 +32,7 @@ let questions = [
         "answer":"C",
     },
     {
-        "question":"In situations were an employee is sexually harassed by a coworker outside of work site, for example social events /gatherings  would  that still be regarded as work abuse.",
+        "question":"In situations were an employee is sexually harassed by a coworker outside of work site, for example social events/gatherings  would  that still be regarded as work abuse.",
         "A":"Not at all",
         "B":" Maybe",
         "C":"Its a tricky one ",
@@ -40,23 +40,23 @@ let questions = [
         "answer":"D",
     },
     {
-        "question":"Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as  verbal abuse and charges can be brought up against the employee.  ",
+        "question":"Terms of endearment with co-workers, i.e. “darling,” “honey” can be seen as verbal abuse and charges can be brought up against the employee.",
         "A":"Yes ",
-        "B":" Depends on the abuser",
+        "B":"Depends on the abuser",
         "C":"No",
         "D":"Sometimes",
         "answer":"A",
     },
     {
-        "question":"Sarah works at a local café. Matthew, a regular customer, often greets Sarah by trying to give her a hug which makes her uncomfortable. Recently, Rhys’s behaviour escalated when he inappropriately pinched Sarah as she walked past the table he was sitting at.What do you think about the situation? ",
+        "question":"Sarah works at a local café. Matthew, a regular customer, often greets Sarah by trying to give her a hug which makes her uncomfortable. Recently, Mattew's behaviour escalated when he inappropriately pinched Sarah as she walked past the table he was sitting at.What do you think about the situation? ",
         "A":"She’s being dramatic, he’s just being friendly ",
         "B":"She needs to report to her supervisor",
-        "C":"Change your shifts",
+        "C":"Change her shifts",
         "D":"She likes it",
         "answer":"B",
     },
     {
-        "question":"Stacey and Joe went on a first date, Joe did not enjoy the date and after  Stacey started pressuring Joe to go out on another date even though has moved on. She’s also following him and popping up in random places. What would you advice Joe? ",
+        "question":"Stacey and Joe went on a first date, Joe did not enjoy the date. Stacey started pressuring Joe to go out on another date even though he has moved on. She’s also following him and popping up in random places. What would you advice Joe? ",
         "A":"Give her a second chance",
         "B":"Move FAR away",
         "C":"Report to Authorities, this could escalate",
@@ -72,7 +72,7 @@ let questions = [
         "answer":"B",
     },
     {
-        "question":"Allowing and making sexual jokes around the workplace/school etc is called ?   ",
+        "question":"Allowing and making sexual jokes around the workplace/school etc is called ?",
         "A":"Quid Pro Quo Harassment ",
         "B":"An Open Environment to everyone",
         "C":"Hostile Environment harassment ",
@@ -81,19 +81,19 @@ let questions = [
     },
     {
         "question":"Your boss wants to go out on a date with you, he’s very persistent, would you consider this sexual harassment?",
-        "A":"Yes it is   ",
+        "A":"Yes it is ",
         "B":"It’s my fault, I was too friendly,",
         "C":"I don’t know",
         "D":"No, he’s my boss",
         "answer":"A",
     },
     {
-        "question":"Do you understand what is appropriate consent is in regards to sexual matters? ",
+        "question":"Do you understand what appropriate consent is in regards to sexual matters?",
         "A":"No I don’t understand it at all ",
-        "B":"I think so ",
-        "C":"Maybe, im unsure",
-        "D":"Yes, I understand and respect boundaries",
-        "answer":"D",
+        "B":"Yes, I understand and respect boundaries",
+        "C":"I think so",
+        "D":"Maybe, i'm unsure",
+        "answer":"B",
     },
     {
         "question":"You should ask for consent before :",
@@ -105,10 +105,10 @@ let questions = [
     },
     {
         "question":"Do you believe men can be victims of harassment/ assault?  ",
-        "A":"No I don’t, were strong ",
+        "A":"No I don’t, they are strong ",
         "B":"I don’t know ",
         "C":"Yes, anybody can be a victim",
-        "D":"Yes, Only if they are unconscious ",
+        "D":"Yes, only if they are unconscious ",
         "answer":"C",
     },
     {
@@ -124,7 +124,7 @@ let questions = [
         "A":"Couples in long distance relationships",
         "B":"Married Couples",
         "C":"People hooking up for the first time",
-        "D":"All of the above  ",
+        "D":"All of the above ",
         "answer":"D",
     },
     {
@@ -138,10 +138,10 @@ let questions = [
     {
         "question":"Which of the Following are considered sexual assault/ misconduct ? ",
         "A":"Unwelcome sexual advances or requests for sexual favours",
-        "B":"Non-consensual recording of sexual activity ",
-        "C":"Distributing intimate photographs of another person",
-        "D":"All of the above are considered sexual assault/misconduct",
-        "answer":"D",
+        "B":"Non-consensual recording of sexual activity",
+        "C":"All of the above are considered sexual assault/misconduct",
+        "D":"Distributing intimate photographs of another person",
+        "answer":"C",
     },
     {
         "question":"Sarah works as a traffic controller in a road construction crew. During breaks, her co-workers often make offensive sexual gestures, remarks and jokes which makes Sarah uncomfortable and distressed. What would you advice Sarah to do? ",
@@ -152,15 +152,15 @@ let questions = [
         "answer":"A",
     },
     {
-        "question":"Leo  has been working as an analyst for three years at his company. At a recent work function his boss Lianne made inappropriate advances towards Leo ,which he rebuffed. What should he do? ",
+        "question":"Leo has been working as an analyst for three years at his company. At a recent work function his boss Lianne made inappropriate advances towards Leo, which he rebuffed. What should he do?",
         "A":"Be a Man, she wants you  ",
         "B":"Report her to a senior ",
         "C":"Ignore her",
         "D":"Quit job",
         "answer":"B",
     }
-
 ];
+
 const startButton = document.getElementById("btn-start");
 const instructionButton = document.getElementById("inst-btn");
 const homepageButton = document.getElementById("refer");
@@ -181,14 +181,18 @@ const HIGHEST_QUESTIONS = questions.length;
 const POINTS = 100;
 
 
-/*  Event Listener active when user is on the quiz.html page.*/
+/* When the user is on the quiz.html page, the event listener for the start button is activated.*/
 
  if (window.location.pathname == "/quiz.html") {
     startButton.addEventListener('click' , startGame);
   }
 
 
-/* The game begins by hiding the instruction button, sorting all of the questions, and setting the relevant variables to their default settings.*/ 
+/**
+* The game begins by hiding the instruction button, sorting all of the questions,
+* and setting the relevant variables to their default setting
+*/
+
 function startGame () {
     startButton.classList.add('hide');
     instructionButton.classList.add('hide');
@@ -202,13 +206,15 @@ function startGame () {
     newQuestion();
 }
 
-/* To obtain a random question from the question array */
+/* To sort the questions in the array at random */
+
 function getAvailableQuestions () {
     questionsAvailable = [...questions].sort(() => Math.random() - 0.5 );
 }
     
 
-/* assign the current question to the first item in the shuffled question array */
+/* assign current question to the first item in the shuffled question array */
+
 function newQuestion () {
     currentQuestion = questionsAvailable[0]; 
     showQuestion();
@@ -216,8 +222,8 @@ function newQuestion () {
 
 
 /*
-*As the user answers each question, the question field is updated, an option is selected
-* and the progress bar and question counter are updated.
+*As the user answers each question from the array, the question field is updated.
+* an option is selected and the progress bar and question counter are updated.
 */
 
 function showQuestion () {
@@ -230,9 +236,11 @@ function showQuestion () {
     progressBar.style.width = `${(questionCounter/HIGHEST_QUESTIONS) * 100}%`;
     
     question.innerText = currentQuestion.question;
+     /** -- code assistance from KeepCoding  */
     answers.forEach((answer) => { 
         let options = answer.dataset.answer;
         answer.innerText = currentQuestion[options];
+     /** -- end of code assistance from KeepCoding */
     });
     acceptAnswers = true ;
     selectAnswer();

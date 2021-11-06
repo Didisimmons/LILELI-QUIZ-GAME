@@ -13,7 +13,7 @@ A 20-quiz questionnaire has been linked to the website to assess users' awarenes
 ![overview of LILELI on all devices](assets/images/overview.png)
 
 #### NOTE TO ASSESSOR: 
-For security reasons, GitHub has disabled a feature known as the 'interest-cohort' which has affected my quiz game. The deployed website start button on the quiz page is unresponsive. This is further explained in the Bug section of the [Testing](test.md)file. 
+For security reasons, GitHub has disabled a feature known as the 'interest-cohort' which has affected the quiz game. The deployed website start button on the quiz page is unresponsive. This is further explained in the Bug section of the [Testing](test.md) file. 
 
 ## Project Goal 
 
@@ -21,7 +21,7 @@ LILELI is a safe environment dedicated to educating the public about the many ty
 
 Our community's experiences would be utilized to make our comics , which would address an ongoing issue in today's culture by training young adults to speak up when they are exploited/harassed/mistreated. This website is aimed towards persons above the age of 18, with the goal of educating them as well as providing a secure space for people to share their stories and learn new things.
 
-The goal of this project is to construct a quiz game that tests the user's knowledge on the topics of Consent and Sexual Harassment, plus a few scenario questions to really put your knowledge to the test. Once finished, the user is given results based on their scores, as well as brief information and links to further educate them on their understandings of consent. We feel that by sharing all of these materials, we are helping to fight sexual harassment/abuse of all kinds and making the world a safer place.
+The goal of this project is to construct a quiz game that tests the user's knowledge on the topics of Consent and Sexual Harassment, plus a few scenario questions to really put your knowledge to the test. Once finished, the user is given results based on their scores, as well as brief information and links to further educate them on their understandings of consent. We feel that by sharing all of these materials, we are helping to fight sexual abuse of all kinds and making the world a safer place.
 
 ### Business Goals
 As a business owner I want : 

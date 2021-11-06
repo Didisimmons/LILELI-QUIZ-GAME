@@ -249,7 +249,7 @@ During the planning and execution of this project, the importance of learning by
 
 I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me to use her business idea (LILELI comics) for my project. I believe it is critical to educate ourselves on the ongoing issue of different forms of abuse in today's society by teaching young adults to speak up when their rights/rights anyone's have been violated. The quiz game has been linked to this cause in order to educate/survey people's knowledge of Sexual Harassment and Consent in the Workplace, Relationships.
 
-I'd also like to thank the tutor support team for answering all of my questions and providing resources that could assist in resolving any problems that arose. 
+I'd also like to thank the tutor support team for answering all of my inquiries and offering resources that aided in the resolution of any issues that arose.
 
 I'd also like to thank Sammy Dartnall, my mentor, for her constant encouragement and advice throughout this project.
 

@@ -311,19 +311,19 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     When the user completes the game, a modal appears displaying the user's score range. Different results are displayed to the user based on this score range, with external links at the bottom of the modal to further educate the user about the topic. 
 
-    The modal title text was overflowing from the screen as the screen width was adjusted to lower breakpoints from a desktop device. This was resolved by adjusting the font size of the modal title for various breakpoints. This modification made the modal appear less clustered and more visually appealing. See screenshots below 
+    The modal title text was overflowing from the screen as the screen width was adjusted to lower breakpoints from a desktop device. This was resolved by adjusting the font size of the modal title for various breakpoints. This modification made the modal appear less clustered and more visually appealing. See screenshots below.
 
      ![ You Scored Below 800:](assets/images/quiz_results.png).
 
-     ![ You scored between 800 - 1100! ](assets/images/quiz_results.png).
+     ![ You scored between 800 - 1100! ](assets/images/quiz_results1.png).
 
-    ![ You scored more than 1200!](assets/images/quiz_results.png).
+    ![ You scored more than 1200!](assets/images/quiz-results3.png).
 
     
 9.	Check that the "Play again" button and the "return to homepage" link function properly when clicked.
 
-     When the user closes the results modal, the "Play Again" button appears as expected. The return to homepage link is also present and works as expected, with a hover effect that matches the rest of the links on the page. Please see the screenshot below:
-
+     The "Play Again" button appears as intended after the user closes the results popup. The return to homepage link is also there and functional. Both have the same hover effect as the rest of the links on the page. Please see the image below for a tablet device.
+      
       ![ Play Again](assets/images/playagain.png).
 
 10.	When the user clicks the "Play again "button, they should be able to restart the game without any problems. All functions should be operational as expected. 
@@ -334,26 +334,41 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
 ## FURTHER TESTING 
 
-* The site was tested on a desktop device (Mac OS and Windows), an iPad Pro, an iPad, and an iPhone to ensure that it was error-free (6,7,8, and an iPhone SE).
+* The site was tested on a desktop device (Mac OS and Windows), iPad, iPhone(6,7,8 and SE) and moto-G4 to ensure that it was error-free and responsive.
 
-* Entrepreneur Teni and colleagues were given access to the site in order for them to provide feedback. One commenter complained that there were too many new links that opened in a new tab. This was corrected by removing the "target =_blank" attribute from the controls on the start page and quiz page buttons. As the user interacted with the start and quiz pages, all links that were clicked in the same browser were refreshed to improv user experience. 
+* Entrepreneur Teni and colleagues were given access to the site in order for them to provide feedback. One commenter complained that there were too many new links that opened in a new tab. This was corrected by removing the "target =_blank" attribute from the controls on the start page and quiz page buttons. As the user interacted with the start and quiz pages, all links that were clicked in the webpage were directed to the new page in the same page.
 
 * Another criticism was that the homepage header text was not enticing enough. The font family did not properly introduce the webpage. This was corrected by changing the font family of the header text to "Lato." This modification added a more distinct thrill to the website and made it more visually appealing.
 
 
-#### LIGHTHOUSE 
+### LIGHTHOUSE 
 
 The lighthouse test was used to assess the performance, accessibility, best web practices, and SEO of our website. Except for the homepage, the three webpages had high performance scores, which could be attributed to a lack of backup files (images) for varying bandwidths or to caching.
-Here are screenshots for the lighthouse test on desktop devices: 
+Here are screenshots for the lighthouse test for both desktop and mobile devices for each page: 
 
 ![lighthouse_desktop_screeshot_for_homepage](assets/images/lighthouse_homepage_desk.png)
 
-![lighthouse_desktop_screenshot_for_quizpage](assets/images/lighthouse_startpage_desk.png)
+![lighthouse_desktop_screenshot_for_startpage](assets/images/lighthouse_startpage_desk.png)
 
-![lighthouse_desktop_screenshot_for_timetablepage](assets/images/lighthouse_quizpage_desk.jpeg)
+![lighthouse_desktop_screenshot_for_quizpage](assets/images/lighthouse_quizpage_desk.png)
+
+![lighthouse_mobile__screenshot_homepage](assets/images/lighthouse_homepage_mob.jpeg)
+
+![lighthouse_mobile__screenshot_startpage](assets/images/lighthouse_startpage_mob.jpeg)
+
+![lighthouse_mobile__screenshot_quizpage](assets/images/lighthouse_quizpage_mob.jpeg)
 
 
+## BUGS 
+1.	When the site was deployed on GitHub, an error message stating "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort' " appeared on the console. This error prevented the "start button" on the quiz page from displaying the questions, as seen [here](https://didisimmons.github.io/LILELI-QUIZ-GAME/quiz.html).
 
+     The problem was researched online, and it was discovered that it was beyond my control. The error was caused by GitHub Pages disabling a feature called 'interest-cohort' for security reasons. More information about the problem can be found [here]( https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780 ) and in [Web.Dev](https://web.dev/floc/#do-websites-have-to-participate-and-share-information).
+
+2.	On the console tab, you can see another error that occurred when the site was deployed. Please see the screenshot below. 
+    
+    ![Errors in the console](assets/images/console-error.jpeg) 
+
+However, it should be noted that the errors displayed on the console were inconsistent. The issue was escalated to tutor support, who stated that they couldn't find any errors on the deployed site, but I did notice errors related to a third-party app (Google ads and embedded player), making debugging difficult. The issue had no effect on the quiz or the homepage; all functions are fully functional.
 
 
 

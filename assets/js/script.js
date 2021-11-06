@@ -190,7 +190,7 @@ const POINTS = 100;
 
 /**
 * The game begins by hiding the instruction button, sorting all of the questions,
-* and setting the relevant variables to their default setting
+* and setting the relevant variables
 */
 
 function startGame () {

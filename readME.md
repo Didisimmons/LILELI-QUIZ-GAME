@@ -245,7 +245,7 @@ The photographs on the website were primarily obtained from entrepreneur Teni Fa
 
 ### ACKNOWLEDGEMENTS
 
-The importance of learning by doing was demonstrated during the planning and execution of this project. Consuming all of the material modules and not knowing where to start was overwhelming at first, but starting from anywhere showed that as you progressed, the understanding and logic behind each of the concepts would become more clear, for which I am grateful.
+During the planning and execution of this project, the importance of learning by doing was demonstrated. Consuming all of the material modules initially resulted in a state of confusion and frustration  but starting from somewhere demonstrated that as you progressed, the understanding and logic behind each of the statements becomes clearer, which I am grateful to have experienced.
 
 I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me to use her business idea (LILELI comics) for my project. I believe it is critical to educate ourselves on the ongoing issue of different forms of abuse in today's society by teaching young adults to speak up when their rights/rights anyone's have been violated. The quiz game has been linked to this cause in order to educate/survey people's knowledge of Sexual Harassment and Consent in the Workplace, Relationships.
 

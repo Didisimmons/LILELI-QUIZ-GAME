@@ -4,7 +4,6 @@
 
 [View main README file](readME.md)
 
-
 ## TESTING 
 
 ### Validator Testing 
@@ -101,7 +100,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     5. Confirm that a white background box shadow appears on the different menu items when you hover over them.
    
-        When this is tested, the white box shadow effect can be seen when the mouse is hovered over the links. See screenshot on Ipad.
+        When this is tested, the white box shadow effect can be seen when the mouse is hovered over the links. See screenshot on Ipad Pro.
         
     ![Hover effect](assets/images/hovereffect-navbar.png)
 
@@ -165,7 +164,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     1.	Go to the home page and scroll all the way down to the product section.
 
-    2. Confirm that the comic products are divided into three equal columns with different card container designs. A picture, a title, some engaging text, and a button should all be included in the design of the card container. When the three columns are adjusted, they should be responsive and conform to the screen size. On a mobile device, each card container should take up the entire width of the screen, with one card container per column.
+    2. Confirm that the comic products are divided into three equal columns with different card container designs. A picture, a title, some engaging text, and a button should all be included in the design of the card container. When the three columns are adjusted, they should be responsive and conform to the screen size. On a mobile device, each card container should take up the entire width of the screen, with one card container per row.
 
          On a desktop device, the card container with the image, title, and brief introductory text is present, and the container is responsive as it adjusts to different screen sizes. The fonts and buttons are also responsive to the width of the screen. As the screen width is reduced to different breakpoints, the card container collapses from three images per row to one image per row on a mobile device. This is done to ensure that the card container content is visible, appealing and not appearing clustered. 
     
@@ -204,17 +203,17 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     2.	Confirm that the social media links on the page all lead to their respective platforms when clicked.
 
-    When tested on a desktop device, it can be seen that when the mouse is hovered over the icons and clicked, the user is directed to a new tab that leads to LILELI's social media accounts, as expected.
+         When tested on a desktop device, it can be seen that when the mouse is hovered over the icons and clicked, the user is directed to a new tab that leads to LILELI's social media accounts, as expected.
 
 
     3.	Confirm that the two other links  on the right side of the footer actually take the user to LILELI's webpages.
 
-    Performing this test reveals that the two weblinks actually direct the user to the homepage. However, it does not open a new tab; rather, it refreshes the current page. This was corrected by appending the attribute "target=" blank" to the a element tag. When either of the two links was clicked, the user was directed to a new page.
+         Performing this test reveals that the two weblinks actually direct the user to the homepage. However, it does not open a new tab; rather, it refreshes the current page. This was corrected by appending the attribute "target=" blank" to the a element tag. When either of the two links was clicked, the user was directed to a new page.
 
 
     4.	To ensure that the footer contents are responsive, expand and contrast the device's screen width. The two web links should appear on top of each other on a mobile device, with the content not looking squashed. 
 
-      As the screen width is reduced to that of a tablet, it can be seen that the footer content is responsive to the screen size, with the font size and icons adjusting as expected without distorting the position of the footer content to maintain its appealing appearance. The two web links appear as expected. 
+         As the screen width is reduced to that of a tablet, it can be seen that the footer content is responsive to the screen size, with the font size and icons adjusting as expected without distorting the position of the footer content to maintain its appealing appearance. The two web links appear as expected. 
 
 
 #### START PAGE
@@ -371,7 +370,7 @@ Here are screenshots for the lighthouse test for both desktop and mobile devices
     
     ![Errors in the console](assets/images/console-error.jpeg) 
 
-However, it should be noted that the errors displayed on the console were inconsistent. The issue was escalated to tutor support, who stated that they couldn't find any errors on the deployed site, but I did notice errors related to a third-party app (Google ads and embedded player), making debugging difficult. The issue had no effect on the quiz or the homepage; all functions are fully functional.
+However, it should be noted that the errors displayed on the console were inconsistent. The issue was escalated to tutor support, who stated that they couldn't find any errors on the deployed site, but I did notice errors related to a third-party app (Google ads and embedded player) which were from adblocker. The issue was fixed and had no effect on the quiz or the homepage; all functions are fully functional.
 
 
 

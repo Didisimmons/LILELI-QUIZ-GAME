@@ -108,7 +108,7 @@ The quiz page is launched after the user confirms "YES" from the start page that
 
 This procedure has been followed to ensure that the correct target audience has been reached and that we are not violating any rights by displaying sensitive content to those of an inappropriate age.
 
-When the game begins, the following features are visible: the question counter and progress bar placed above it on the left side, and the score field on the right side. The answer options are listed at the bottom of the questions, and the user must select one to proceed to the next question. 
+When the game begins, the following features are visible: the question counter and progress bar placed above the question on the left side, and the score field on the right side. The answer options are listed at the bottom of the questions, and the user must select one to proceed to the next question. 
 
 After completing the quiz, the user is given their results as well as links to additional information on Consent & Sexual Harassment. When the user closes the results, they are presented with a "PLAY AGAIN" button, which allows them to reset the game and begin again, with the option of returning to the homepage. 
 
@@ -122,7 +122,7 @@ After completing the quiz, the user is given their results as well as links to a
 
 * Score Field : This field is updated whenever the user correctly answers a question. Every time the correct answer is given, the score is increased by 100.
 
-* Questions : There are 20 quiz questions for the user to select from. 
+* Questions : There are 20 quiz questions for the user to answer. 
 
 
 
@@ -248,7 +248,7 @@ The photographs on the website were primarily obtained from entrepreneur Teni Fa
 
 ### ACKNOWLEDGEMENTS
 
-During the planning and execution of this project, the importance of learning by doing was demonstrated. Consuming all of the material modules initially resulted in a state of confusion and frustration  but starting from somewhere demonstrated that as you progressed, the understanding and logic behind each of the statements becomes clearer, which I am grateful to have experienced.
+During the planning and execution of this project, the importance of learning by doing was really demonstrated. Consuming all of the material modules initially resulted in a state of confusion and frustration  but starting from somewhere demonstrated that as you progressed, the understanding and logic behind each of the statements becomes clearer, which I am grateful to have experienced.
 
 I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me to use her business idea (LILELI comics) for my project. I believe it is critical to educate ourselves on the ongoing issue of different forms of abuse in today's society by teaching young adults to speak up when their rights/rights anyone's have been violated. The quiz game has been linked to this cause in order to educate/survey people's knowledge of Sexual Harassment and Consent in the Workplace, Relationships.
 

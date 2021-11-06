@@ -1,6 +1,6 @@
 # LILELI
 
-[View deployed site](https://didisimmons.github.io/LILELI-QUIZ-GAME/)
+[View Deployed Site](https://didisimmons.github.io/LILELI-QUIZ-GAME/)
 
 ### Overview of project: 
 
@@ -11,6 +11,9 @@ We provide resources for young adults that are both instructive and understandab
 A 20-quiz questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
 
 ![overview of LILELI on all devices](assets/images/overview.png)
+
+#### NOTE TO ASSESSOR: 
+For security reasons, GitHub has disabled a feature known as the 'interest-cohort' which has affected my quiz game. The deployed website start button on the quiz page is unresponsive. This is further explained in the Bug section of the [Testing](test.md)file. 
 
 ## Project Goal 
 
@@ -225,11 +228,11 @@ This project was deployed using GitHub pages, and the steps required to do so ar
 
 * Code inspiration for the showQuestion function came from [KindsonTheTechPro]( https://www.kindsonthegenius.com/javascript/quiz-application-in-javascript-with-validation-step-by-step/#t4) , another coding institute peer’s [script.js]( https://mervekucukzoroglu.github.io/FikaMed/assets/js/script.js) file and [KeepCoding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding).
 
-* This readme document was based on research on several readme documents, including the Code Institute's readme [sample](https://github.com/Code-Institute-Solutions/SampleREADME), AJ Greaves' readme [sample](https://github.com/AJGreaves/portrait-artist/blob/master/README.md#anna-gilhespy), and FLYBOODY's readME [file ](https://github.com/Didisimmons/Flybody-gym/blob/master/README.md)
+* This readme document was based on research on several readme documents, including the Code Institute's readme [sample](https://github.com/Code-Institute-Solutions/SampleREADME), AJ Greaves' readme [sample](https://github.com/AJGreaves/portrait-artist/blob/master/README.md#anna-gilhespy), and FLYBOODY's readME [file ](https://github.com/Didisimmons/Flybody-gym/blob/master/README.md).
 
 * After conducting research, [flaviocopes](https://flaviocopes.com/how-to-shuffle-array-javascript/) provided code assistance for the randomization of the questions.
 
-* The resources used to provide the user with additional information about sexual harassment and consent in the quiz game were obtained from [Sexual Wellbeing](https://www.sexualwellbeing.ie/sexual-health/sexual-consent/sexual-consent-in-practice/), [Rape Crisis](https://rapecrisis.org.uk/get-informed/about-sexual-violence/sexual-consent/) and [IPPF]( https://www.ifpa.ie/sites/default/files/documents/Reports/teaching_about_consent_healthy_boundaries_a_guide_for_educators.pdf) 
+* The resources used to provide the user with additional information about sexual harassment and consent in the quiz game were obtained from [Sexual Wellbeing](https://www.sexualwellbeing.ie/sexual-health/sexual-consent/sexual-consent-in-practice/), [Rape Crisis](https://rapecrisis.org.uk/get-informed/about-sexual-violence/sexual-consent/) and [IPPF]( https://www.ifpa.ie/sites/default/files/documents/Reports/teaching_about_consent_healthy_boundaries_a_guide_for_educators.pdf). 
 
 
 ### MEDIA
@@ -251,5 +254,4 @@ I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me
 
 I'd also like to thank the tutor support team for answering all of my inquiries and offering resources that aided in the resolution of any issues that arose.
 
-I'd also like to thank Sammy Dartnall, my mentor, for her constant encouragement and advice throughout this project.
-
+I'd also want to thank my mentor, Sammy Dartnall, for her ongoing encouragement, help, know-how, and advise during this project.

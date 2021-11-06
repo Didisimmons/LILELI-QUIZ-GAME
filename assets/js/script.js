@@ -255,6 +255,7 @@ function showQuestion () {
 function selectAnswer () {
     answers.forEach((answer) => { 
        /** -- code assistance from Brian Design and KeepCoding check credit section  */
+
         answer.addEventListener("click" , e => {
             if(!acceptAnswers){
                 return;
@@ -265,6 +266,7 @@ function selectAnswer () {
             console.log( pickedAnswer);
 
      /** -- end of code assistance from Brian Design and KeepCoding   */
+     
             if (pickedAnswer === currentQuestion.answer){
                 applyClass = "right-answer";
                 selectedAnswer.parentElement.classList.add(applyClass);

@@ -8,7 +8,7 @@
 ## TESTING 
 
 ### Validator Testing 
-* [W3C Markup Validation](https://validator.w3.org/): This was used to check the validity of the html code for all three webpages.The code was found to be error-free by the validator. See screenshot below for all three pages.
+* [W3C Markup Validation](https://validator.w3.org/): This was used to check the validity of the html code for all three webpages. The code was found to be error-free by the validator. See screenshot below for all three pages.
 
 ![ Home Page ](assets/images/indexpage_validation.png)
 

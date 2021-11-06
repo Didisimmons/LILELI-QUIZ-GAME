@@ -269,7 +269,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
  
 4. Confirm that the button is highlighted with a box shadow when hovered over.
 
-     When the effect is tested, it is clear that it occurs as expected. A light green shadow appears over the buttons when the mouse is hovered over them. Please see the screenshot below. 
+     When the effect is tested, it is clear that it occurs as expected. A light green shadow appears over the buttons when the mouse is hovered over them. Please see screenshot below. 
 
      ![ quiz button with box shadow](assets/images/quizpage3.png).
 
@@ -296,7 +296,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     - When the user hovers over one of the four options available, each of the buttons expands.
 
-    - The button goes green when the user selects the correct answer; red when the user selects the incorrect response. When an answer is selected, the system automatically moves on to the following question. Please see the screenshots of the effects explained.
+    - The button goes green when the user selects the correct answer; red when the user selects the incorrect response. When an answer is selected, the system automatically moves on to the following question. Screenshots of the effects explained below.
 
     ![ quiz answer option correct  ](assets/images/quizpage_correct.png)
 
@@ -310,7 +310,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
     When the user completes the game, a modal appears displaying the user's score range. Different results are displayed to the user based on this score range, with external links at the bottom of the modal to further educate the user about the topic. 
 
-    The modal title text was overflowing from the screen as the screen width was adjusted to lower breakpoints from a desktop device. This was resolved by adjusting the font size of the modal title for various breakpoints. This modification made the modal appear less clustered and more visually appealing. See screenshots below.
+    The modal title text was overflowing from the screen as the screen width was adjusted to lower breakpoints from a desktop device. This was resolved by adjusting the font size of the modal title for various breakpoints. This modification made the modal appear less clustered and more visually appealing. Screenshots below.
 
      ![ You Scored Below 800:](assets/images/quiz_results.png).
 
@@ -339,7 +339,7 @@ Chrome dev tools was used to test the responsiveness of each webpage by changing
 
 * Another criticism was that the homepage header text was not enticing enough. The font family did not properly introduce the webpage. This was corrected by changing the font family of the header text to "Lato." This modification added a more distinct thrill to the website and made it more visually appealing.
 
-* The website [AM I Responsive](http://ami.responsivedesign.is/#) is used to capture LILELI's aesthetic look and responsiveness across all devices. Please see the screenshot below.
+* The website [AM I Responsive](http://ami.responsivedesign.is/#) is used to capture LILELI's aesthetic look and responsiveness across all devices.  Screenshot below.
 
     ![visual appearance across all devices](assets/images/overview.png)
 

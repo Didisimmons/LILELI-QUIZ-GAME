@@ -4,9 +4,9 @@
 
 ### Overview of project: 
 
-LILELI is a website created for a London-based entrepreneur who is dedicated to eradicating the stigma associated with any type of abuse through the use of comics. Its purpose is to inform young adults about abuse and assaults that occur in our daily lives. The primary objective of LILELI is to build a community where people can share their stories and meet people who can help them heal.
+LILELI is a website created for a London-based entrepreneur who is dedicated to eradicating the stigma associated with any type of abuse through the use of comics. Its purpose is to inform young adults about abuse that occur in our daily lives. The primary objective of LILELI is to build a community where people can share their stories and meet people who can help them heal.
 
-We provide resources for young adults that are both instructive and understandable. For example, our Comics are simple and pleasant to read; these are actual stories from our community developed exclusively for you, therefore our slogan "comic made by you for you." We hope to solve the ongoing problem in today's society by educating everyone about the harmful consequences of abuse, and we believe that doing so will help to reduce the dangerously high rate of assaults/harassment that has been increasing on a daily basis.
+We provide resources for young adults that are both instructive and understandable. For example, our Comics are simple and pleasant to read; these are actual stories from our community developed exclusively for you, therefore our slogan "comic made by you for you." We hope to solve the ongoing problem in today's society by educating everyone about the harmful consequences of abuse, and we believe that doing so will help to reduce the dangerously high rate of abuse that has been increasing on a daily basis.
 
 A 20-quiz questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
 
@@ -23,7 +23,7 @@ The goal of this project is to construct a quiz game that tests the user's knowl
 ### Business Goals
 As a business owner I want : 
 
-* Create a visually appealing website that focuses visitors' attention to the battle against assaults/harassment
+* Create a visually appealing website that focuses visitors' attention to the battle against harassment.
 
 * To build a website where people may feel comfortable and trust our brand in order to join our community.
 
@@ -67,7 +67,7 @@ As a customer I want to :
 
 ### Wireframes:  
 
-The wireframe for the entire site can be found [here]( https://www.figma.com/file/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=9%3A260). To view the webpage flow and interactions can be viewed  [here](https://www.figma.com/proto/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2) for both a desktop and a mobile device, along with its interactions.
+The wireframe for the entire site can be found [here]( https://www.figma.com/file/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=9%3A260). The webpage flow and interactions can be viewed  [here](https://www.figma.com/proto/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2) for both a desktop and a mobile device, along with its interactions.
 
 
 ## FEATURES

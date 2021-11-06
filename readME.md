@@ -4,19 +4,19 @@
 
 ### Overview of project: 
 
-Lileli is a website created for a London-based entrepreneur who is committed to removing the stigma connected with any sort of abuse through comics. Raising awareness about the reality that people are mistreated on a daily basis, with many people being ignorant, and educating the public about the abuse culture. Its goal is to create a community where people can share their stories and meet people who can help them heal.
+LILELI is a website created for a London-based entrepreneur who is dedicated to eradicating the stigma associated with any type of abuse through the use of comics. Its purpose is to inform young adults about abuse and assaults that occur in our daily lives. The primary objective of LILELI is to build a community where people can share their stories and meet people who can help them heal.
 
 We provide resources for young adults that are both instructive and understandable. For example, our Comics are simple and pleasant to read; these are actual stories from our community developed exclusively for you, therefore our slogan "comic made by you for you." We hope to solve the ongoing problem in today's society by educating everyone about the harmful consequences of abuse, and we believe that doing so will help to reduce the dangerously high rate of assaults/harassment that has been increasing on a daily basis.
 
-A 20 quiz questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
+A 20-quiz questionnaire has been linked to the website to assess users' awareness of Consent and Sexual Harassment. With the rising number of assault cases in the workplace, homes, friendships, and relationships, it is critical to educate everyone and guarantee that we are all educated and not violating the rights of others.
 
 ![overview of LILELI on all devices](assets/images/overview.png)
 
 ## Project Goal 
 
-Lileli is a safe environment dedicated to educating the public about the many types of abuse and their consequences via the use of comic books. We believe that by offering first-hand information on the subject, we can ensure that everyone understands their rights and respects the rights of others.
+LILELI is a safe environment dedicated to educating the public about the many types of abuse and their consequences via the use of comic books. We believe that by offering first-hand information on the subject, we can ensure that everyone understands their rights and respects the rights of others.
 
-Our community's experiences would be utilized to make our comics , which would address an ongoing issue in today's culture by training young adults to speak up when they are exploited/harrased/mistreated. This website is aimed towards persons above the age of 18, with the goal of educating them as well as providing a secure space for people to share their stories and learn new things.
+Our community's experiences would be utilized to make our comics , which would address an ongoing issue in today's culture by training young adults to speak up when they are exploited/harassed/mistreated. This website is aimed towards persons above the age of 18, with the goal of educating them as well as providing a secure space for people to share their stories and learn new things.
 
 The goal of this project is to construct a quiz game that tests the user's knowledge on the topics of Consent and Sexual Harassment, plus a few scenario questions to really put your knowledge to the test. Once finished, the user is given results based on their scores, as well as brief information and links to further educate them on their understandings of consent. We feel that by sharing all of these materials, we are helping to fight sexual harassment/abuse of all kinds and making the world a safer place.
 
@@ -43,13 +43,13 @@ As a customer I want to :
 
 * Be able to readily view the questions and learn something new when I take the quiz.
 
-## Design
+## DESIGN
 
 * Colour Scheme
 
-    -  The colors used in the site's design were developed using the colorspace website. The [spotpallete] (https://mycolor.space/?hex= percent 23845EC2&sub=1) was chosen.
+    -  The colours used in the site's design were developed using the colorspace website. The [spot Pallete](https://mycolor.space/?hex=%23845EC2&sub=1) was chosen.
 
-    - The colours reflect LILELI's brand in order to convey trust and a comfortable space to consumers, as purple represents royalty and has long been connected with abuse victims. To keep the site clean and simple, a white pallete is offered.
+    - The colours reflect LILELI's brand in order to convey trust and a comfortable space to consumers, as purple represents royalty and has long been connected with abuse victims. To keep the site clean and simple, a white background is also used.
     
 * Typography
 
@@ -57,34 +57,32 @@ As a customer I want to :
 
 * Imagery 
 
-  - Most of the photos used on the site were obtained from the entrepreneur Teni Fashanu. The logo , hero image, the product images and the images used to to create the background picture for certain sections. However some of these images were modified using phtoshop for the background images, 
+  - Most of the photos used on the site were obtained from the entrepreneur Teni Fashanu. The logo , hero image, the product images and the images used to create the background picture for certain sections. However some of these images were modified using photoshop for the background images. 
 
-  - The photos utilized depict what to expect from LILELI's comics as well as the welcoming environment you can expect when you join our community. The photographs are aimed at a certain demographic in order to capture their attention and portray a secure sanctuary.
-  
-  - Images from free image providers such as Unsplash were used on the other pages.
+  - The photos utilized depict what to expect from LILELI's comics as well as the safe environment you can expect when you join our community. The photographs are aimed at a certain demographic in order to capture their attention and portray a secure sanctuary.
 
 * Videos 
    
-   - The homepage video was received from entrepreneur Teni Fashanu and was made by Henryhousefilms.
+   - The homepage video was made by Henryhousefilms and received from entrepreneur Teni Fashanu.
 
 ### Wireframes:  
 
-The full site's wireframe is available [here](https://www.figma.com/proto/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2). This displays the site on both a desktop and a mobile device, along with its interactions.
+The wireframe for the entire site can be found [here]( https://www.figma.com/file/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=9%3A260). To view the webpage flow and interactions can be viewed  [here](https://www.figma.com/proto/jQcJQcFWw9uGwa3Z84LfbX/Lileli?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2) for both a desktop and a mobile device, along with its interactions.
 
 
 ## FEATURES
-Each of the pages designed for the website contain different content that appeal to the user. 
+The page first introduces the user to LILELI by displaying a promotional video and comics in  Abuse. By clicking the “Join Us” button, the user can easily join their community. As the user nears the bottom of the page, they can engage in the quiz challenge by clicking the "take Quiz" button. 
 
 
 ### HOMEPAGE 
-The homepage has a fully responsive navigation bar with the logo on the left and three different links (about, products, and rooms) on the right. When a user adjusts the screen to a mobile device, the three different links on the right move to the centre of the screen, leaving the logo alone. 
+The homepage has a fully responsive navigation bar with the logo on the left and three different links (about, products, and rooms) on the right. When a user adjusts the screen to a mobile device, the three different links on the right occupy the centre of the navigation bar, leaving the logo on the far left. 
 
 The hero image is displayed beneath the navigation bar in order to catch the user's attention. The header text and tag line text have a zoom in effect that makes them visually appealing to the user.
 
-The about section is located beneath the hero image and provides the user with a brief overview of LILELI’s mission. This gives users a small amount of trust in what LILELI is about and how it might be useful for them to stay engaged on the site.
+The about us section is located beneath the hero image and provides the user with a brief overview of LILELI’s mission. This gives users a small amount of trust in what LILELI is about and how it might be useful for them to stay engaged on the site.
 
 
-A video has been added under the about section to raise awareness about the abuse culture and how LILELI can help you. The video's goal is to show abuse victims that they are not alone and that we are all in this together. Under the video content, there is a read more button that allows the user to see more weekly information about LILELI on their blog. This gives the user confidence in the LILELI brand and materials for self-research and education.
+A video has been added under the about section to raise awareness about abuse  and how LILELI can help you. The video's goal is to show abuse victims that they are not alone and that we are all in this together. Under the video content, there is a read more button that allows the user to see more weekly information about LILELI on their blog. This gives the user confidence in the LILELI brand and materials for self-research and education.
 
 The review section is located beneath the video section and displays real-life stories from our community members. These are some of the victims' stories about what they've been through and what you can expect from the lessons in our comics once you buy them. 
 A brief compelling text is also included to warm the hearts of the users and demonstrate to them that as a brand, we understand and are here to help, with the goal of gaining their trust. 
@@ -103,7 +101,7 @@ When the user clicks the "Take Quiz" button, the user is taken to the start page
 
 ### QUIZ PAGE
 
-The quiz page is launched after the user confirms "YES" from the start page that they are over the age of 18. The page includes two large buttons that are stacked on top of each other and display the messages "start" and "instructions." This gives the user instructions on how to play the game, and the start button directs  the user to the questions. A link to the main site has also been included. 
+The quiz page is launched after the user confirms "YES" from the start page that they are over the age of 18. The page includes two buttons that are stacked on top of each other and display the messages "start" and "instructions." This gives the user instructions on how to play the game, and the start button directs  the user to the questions. A link to the main site has also been included. 
 
 This procedure has been followed to ensure that the correct target audience has been reached and that we are not violating any rights by displaying sensitive content to those of an inappropriate age.
 
@@ -121,10 +119,11 @@ After completing the quiz, the user is given their results as well as links to a
 
 * Score Field : This field is updated whenever the user correctly answers a question. Every time the correct answer is given, the score is increased by 100.
 
-* Play Again: This enables the user to restart the game.
+* Questions : There are 20 quiz questions for the user to select from. 
 
 
-### FEATURES TO IMPLEMENT IN THE FUTURE 
+
+#### FEATURES TO IMPLEMENT IN THE FUTURE 
 
 * When a user clicks "Rooms" in the navigation bar, he or she should be directed to a channel where they can join different topics and discuss with people from all over the world.
 
@@ -134,7 +133,7 @@ After completing the quiz, the user is given their results as well as links to a
 
 *  When the user has finished playing the game, a form should be provided in which they can enter their names and phone numbers in order to be contacted.
 
-*	When playing the game, the user should be able to select the number of questions they want to answer. They should be given a group of topics to select from to play the game 
+*	When playing the game, the user should be able to select the number of questions they want to answer. They should be given a group of topics to select from to play the game .
 
 
 ### TECHNOLOGIES USED
@@ -154,15 +153,15 @@ After completing the quiz, the user is given their results as well as links to a
 
 4. [FIGMA](https://www.figma.com/): This was used to develop the wireframes ( mobile and desktop devices) for LILELI website. 
 
-5. [JSHint](https://jshint.com/): This was used to analyze the javascript code , to ensure errors were minimised.
+5. [JSHint](https://jshint.com/): This was used to analyse the JavaScript code , to ensure errors were minimised.
 
-6. [GIT](https://git-scm.com/): This was the preferred method of version control. To commit and publish our project to github, we used the gitpod.
+6. [GIT](https://git-scm.com/): This was the preferred method of version control. To commit and publish our project to GitHub, we used the gitpod.
 
 7. [GITHUB](https://github.com/): This is was used to store the projects code.
 
 8. [CHROME DEV TOOLS]() : This was used to test our site's responsiveness across various screen devices and to ensure no errors were found when the website was live and active for the user. 
 
-9. [VISUAL STUDIO CODE](https://code.visualstudio.com/): This was used for writing and testing out the project’s code before committing to github  to avoid internet connection interference.  
+9. [VISUAL STUDIO CODE](https://code.visualstudio.com/): This was used for writing and testing out the project’s code before committing to GitHub  to avoid internet connection interference.  
 
 10. [FAVICON](https://favicon.io/favicon-converter/): This was used to create the favicon for LILELI. LILELI's favicon is their brand logo, which helps users find their site when they are browsing multiple tabs.
 
@@ -173,13 +172,11 @@ This can be found in [TESTING.md](test.md) file.
 
 ## DEPLOYMENT
 
-This project was deployed using GitHub pages, and the steps required to do so are detailed below. In the event that a user wishes to fork the game, the necessary steps are also provided below.
+This project was deployed using GitHub pages, and the steps required to do so are detailed below. In the event that a user wishes to fork the project, the necessary steps are also provided below.
 
 1. GitHub Pages
 
-    This project was deployed using GitHub Pages and these were the actions taken for deployment.
-
-      * Log in to GitHub and navigate to the repository to be deployed which is [LILELI QUIZ GAME](https://github.com/Didisimmons/LILELI-QUIZ-GAME)
+      * Log in to GitHub and navigate to the repository to be deployed which is [LILELI QUIZ GAME](https://github.com/Didisimmons/LILELI-QUIZ-GAME).
 
       *  Once you click the repository, you would see a "settings" option click it and it would direct you to the settings page. 
       
@@ -190,22 +187,22 @@ This project was deployed using GitHub pages, and the steps required to do so ar
       * However it is important to note that once the user clicks the deployed site , the user might not be able to view the site immediately, which is not a problem as it might take 2 minutes or less for the deployed site to be active.  
 
 
-2. Forking The Github Repository
+2. Forking The GitHub  Repository
 
-    By forking the GitHub repository, we create a clone of our original repository (LILELI) in our Github account.This assists modifications and experiments to be done on the cloned repository without affecting the original repository.
+    By forking the GitHub repository, we create a clone of our original repository (LILELI QUIZ GAME) in our GitHub account.This assists modifications and experiments to be done on the cloned repository without affecting the original repository.
 
       * Sign In to GitHub account . 
 
-      * Decide from the list of repositories which you would want to be duplicated. For this project it's [LILELI](https://github.com/Didisimmons/https://github.com/Didisimmons/LILELI-QUIZ-GAME).
+      * Decide from the list of repositories which you would want to be duplicated. For this project it's [LILELI QUIZ GAME](https://github.com/Didisimmons/https://github.com/Didisimmons/LILELI-QUIZ-GAME).
 
-      * Locate the "fork" option at the top right corner of the LILELI QUIZ GAME and click it. Once clicked it creates another copy of the LILELI QUIZ GAME repository to accomodate modifications.
+      * Locate the "fork" option at the top right corner of the LILELI QUIZ GAME and click it. Once clicked it creates another copy of the LILELI QUIZ GAME repository to accommodate  modifications.
 
 
 ## CREDITS
 
 ### CONTENT 
 
-*	 The code for this game was inspired by extensive research on several quiz game tutorials, articles, and Stackoverflow. Here are the few YouTube channels researched : 
+*	 The code for this game was inspired by extensive research on several quiz game tutorials and Stackoverflow articles. Here are the few YouTube channels researched : 
      * [Kindson The Tech Pro](https://www.youtube.com/watch?v=2Bpiluefkh8&t=882s&ab_channel=KindsonTheTechPro). 
 
      * [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign)
@@ -216,28 +213,30 @@ This project was deployed using GitHub pages, and the steps required to do so ar
 
      * [Coding Nepal](https://www.youtube.com/watch?v=pQr4O1OITJo&t=895s&ab_channel=CodingNepal)
  
-* The design of the site was inspired by research on various abuse support sites such as [Meetoo](https://metoomvmt.org/), [Everyone's invited](everyonesinvited.uk/), and [Emotional Abuse](http://stoprelationshipabuse.org/educated/types-of-abuse/emotional-abuse/).
+* The design of the site was inspired by research on various abuse support sites such as [Meetoo](https://metoomvmt.org/), [Everyone's invited](everyonesinvited.uk/) and [Emotional Abuse](http://stoprelationshipabuse.org/educated/types-of-abuse/emotional-abuse/).
 
 *	The animation effect applied to the navigation bar was gotten from [FLYBODY](https://github.com/Didisimmons/Flybody-gym/blob/master/assets/css/style.css) while the effect used on the hero image header and text were gotten from [CSS tricks](https://css-tricks.com/almanac/properties/a/animation/). 
 
-* The box shadow effect on the page's buttons was obtained from Youtuber [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign) and modified with CSS.
+* The box shadow effect on the page's buttons was inspired from Youtuber [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign) and modified with CSS.
 
 
-* The two YouTubers [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign) and [Keep Coding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding).
+* The two YouTubers [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3161s&ab_channel=BrianDesign) and [Keep Coding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding) provided code assistance for the select Answer function. 
 
 
-* Code inspiration came from [KindsonTheTechPro]( https://www.kindsonthegenius.com/javascript/quiz-application-in-javascript-with-validation-step-by-step/#t4) , another coding institute peer’s [script.js]( https://mervekucukzoroglu.github.io/FikaMed/assets/js/script.js) file and [KeepCoding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding)
+* Code inspiration for the showQuestion function came from [KindsonTheTechPro]( https://www.kindsonthegenius.com/javascript/quiz-application-in-javascript-with-validation-step-by-step/#t4) , another coding institute peer’s [script.js]( https://mervekucukzoroglu.github.io/FikaMed/assets/js/script.js) file and [KeepCoding](https://www.youtube.com/watch?v=MxrGPP4F8Sc&ab_channel=Keepcoding).
 
-* This readme document was based on research on several readme documents, including the Code Institute's readme [sample](https://github.com/Code-Institute-Solutions/SampleREADME), AJ Greaves' readme [sample](https://github.com/AJGreaves/portrait-artist/blob/master/README.md#anna-gilhespy), and my previous readMe [file ](https://github.com/Didisimmons/Flybody-gym/blob/master/README.md)
+* This readme document was based on research on several readme documents, including the Code Institute's readme [sample](https://github.com/Code-Institute-Solutions/SampleREADME), AJ Greaves' readme [sample](https://github.com/AJGreaves/portrait-artist/blob/master/README.md#anna-gilhespy), and FLYBOODY's readME [file ](https://github.com/Didisimmons/Flybody-gym/blob/master/README.md)
 
-* After conducting research, [flaviocopes](https://flaviocopes.com/how-to-shuffle-array-javascript/) provided code inspiration for the randomization of the questions.
+* After conducting research, [flaviocopes](https://flaviocopes.com/how-to-shuffle-array-javascript/) provided code assistance for the randomization of the questions.
+
+* The resources used to provide the user with additional information about sexual harassment and consent in the quiz game were obtained from [Sexual Wellbeing](https://www.sexualwellbeing.ie/sexual-health/sexual-consent/sexual-consent-in-practice/), [Rape Crisis](https://rapecrisis.org.uk/get-informed/about-sexual-violence/sexual-consent/) and [IPPF]( https://www.ifpa.ie/sites/default/files/documents/Reports/teaching_about_consent_healthy_boundaries_a_guide_for_educators.pdf) 
 
 
 ### MEDIA
 
-The photographs on the website were primarily obtained from entrepreneur Teni Fashanu, with some of them being examples that have yet to be published. Procreate and Photoshop were also used to create some of the photos.
+The photographs on the website were primarily obtained from entrepreneur Teni Fashanu, with some of them being examples that have yet to be published. Photoshop was also used to create some of the photos.
 
-* Teni Fashanu provided the LILELI logo, hero picture, product photos, review background image collage, and quiz container background image. The review backdrop picture collage and the quiz container background image, on the other hand, were modified to appear as they did on the webpage.
+* Teni Fashanu provided the LILELI logo, hero picture, product photos, review background image collage and quiz container background image. The review backdrop picture collage and the quiz container background image, on the other hand, were modified to appear as they did on the webpage.
 
 *	David Damz, a graphic designer, made the image on the start page using ProCreate and Photoshop.
 
@@ -246,11 +245,11 @@ The photographs on the website were primarily obtained from entrepreneur Teni Fa
 
 ### ACKNOWLEDGEMENTS
 
-The importance of learning by doing was demonstrated during the planning and execution of this project. Consuming all of the material modules and not knowing where to start was overwhelming at first, but starting from anywhere showed that as you progressed, the understanding and logic behind each of the statements would become more clear, for which I am grateful.
+The importance of learning by doing was demonstrated during the planning and execution of this project. Consuming all of the material modules and not knowing where to start was overwhelming at first, but starting from anywhere showed that as you progressed, the understanding and logic behind each of the concepts would become more clear, for which I am grateful.
 
-I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me to use her business idea (LILELI comics) for my project. I believe it is critical to educate ourselves on the ongoing issue of different forms of abuse in today's society by teaching young adults/everyone to speak up when their rights/rights anyone's have been violated. The quiz game has been linked to this cause in order to educate/survey people's knowledge of Sexual Harassment and Consent in the Workplace, Relationships.
+I'd like to thank Teni Fashanu, an entrepreneur based in London, for allowing me to use her business idea (LILELI comics) for my project. I believe it is critical to educate ourselves on the ongoing issue of different forms of abuse in today's society by teaching young adults to speak up when their rights/rights anyone's have been violated. The quiz game has been linked to this cause in order to educate/survey people's knowledge of Sexual Harassment and Consent in the Workplace, Relationships.
 
 I'd also like to thank the tutor support team for answering all of my questions and providing resources that could assist in resolving any problems that arose. 
 
-I'd also like to thank Sammy Dartnall, my mentor, for her constant encouragement and push throughout this project.
+I'd also like to thank Sammy Dartnall, my mentor, for her constant encouragement and advice throughout this project.
 

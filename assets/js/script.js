@@ -215,7 +215,10 @@ function newQuestion () {
 }
 
 
-/*updates the question field, selects an answer, and refreshes the progress bar and question counter*/
+/*
+*As the user answers each question, the question field is updated, an option is selected
+* and the progress bar and question counter are updated.
+*/
 
 function showQuestion () {
     if (questionsAvailable.length === 0) {
@@ -297,7 +300,7 @@ function displayResults () {
 }
 
 
-/* Allows the user to reset the game */
+/* Allows the user to reset the game , hiding the questions */
  
 
 function resetState() {

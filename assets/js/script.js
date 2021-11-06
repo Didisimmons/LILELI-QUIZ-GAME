@@ -250,7 +250,7 @@ function showQuestion () {
 
 /**
  * Allows the user to choose only one answer; if accurate or incorrect.
- * The user's score is increased for each new question correctly answered.
+ * The user's score is increased for each new question correctly answered and displayed in console.
  */
 function selectAnswer () {
     answers.forEach((answer) => { 

@@ -161,7 +161,7 @@ let questions = [
     }
 ];
 
-const startButton = document.getElementById("btn-start");
+let startButton = document.getElementById("btn-start");
 const instructionButton = document.getElementById("inst-btn");
 const homepageButton = document.getElementById("refer");
 const questionContainer = document.getElementById("question-area-container");
